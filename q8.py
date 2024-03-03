@@ -70,6 +70,9 @@ def branching_sat_solve(clause_set, partial_assigmnet) :
     if partial_assigmnet != [] :
         potato = checker(copied, partial_assigmnet) 
         if potato != None :
+            for i in range(1, Max) :
+                if i not in partial_assigmnet and i*-1 not in partial_assigmnet :
+                    partial_assigmnet.append(i)
             return partial_assigmnet
         else :
             return False 
@@ -151,14 +154,23 @@ def branching_sat_solve(clause_set, partial_assigmnet) :
     y = branching(clause_set, SAT, Max, -1)
 
     if x :
+        print(x)
+        for i in range(1, Max+1) :
+            if i not in x and i*-1 not in x :
+                x.append(i)
         return x 
+
     elif y :
+        for i in range(1, Max+1) :
+            if i not in y and i*-1 not in y :
+                y.append(i)
+        print(y)
         return y 
     else : 
         return False
 
-partial_assignment = [1, -2, 3]
-clause_set = [[1],[1,-1],[-1,-2],[-2,3]]
+partial_assignment = []
+clause_set = [[1],[1,-1],[-1,-2,-3],[-2]]
 
 hm = branching_sat_solve(clause_set, partial_assignment)
 print(hm)
