@@ -132,7 +132,7 @@ def branching_sat_solve(clause_set, partial_assigmnet) :
                     if len(clause[i]) == 0 :
                         return 
         """ 
-        
+        """
         if literal == Max :
             return
         if literal > 0 :
@@ -145,9 +145,11 @@ def branching_sat_solve(clause_set, partial_assigmnet) :
             if result :
                 return result
             return branching(clause, SAT1, Max, (literal*-1)+1)
+            """
+        
 
     SAT = [] 
-    Max = 3  
+    Max = 6  
     
         
     x = branching(clause_set, SAT, Max, 1)
@@ -155,22 +157,24 @@ def branching_sat_solve(clause_set, partial_assigmnet) :
 
     if x :
         print(x)
-        for i in range(1, Max+1) :
-            if i not in x and i*-1 not in x :
-                x.append(i)
+        for i in clause_set :
+            for j in i :
+                if j not in x and j*-1 not in x :
+                    x.append(i)
         return x 
 
     elif y :
-        for i in range(1, Max+1) :
-            if i not in y and i*-1 not in y :
-                y.append(i)
+        for i in clause_set :
+            for j in i :
+                if j not in y and j*-1 not in y :
+                    y.append(i)
         print(y)
         return y 
     else : 
         return False
 
 partial_assignment = []
-clause_set = [[1],[1,-1],[-1,-2,-3],[-2]]
+clause_set = [[1],[1,-1],[-1,-2,-3],[-2],[6]]
 
 hm = branching_sat_solve(clause_set, partial_assignment)
 print(hm)

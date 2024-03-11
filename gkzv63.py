@@ -1,16 +1,125 @@
-import copy
+import copy 
+
+#Question 6
+def load_dimacs(filename) :
+    File = open(filename, 'r')
+    x = File.read()
+    Array1 = x.splitlines()
+    Final = Array2 = []
+    Array1.append(' ')
+    Flag = False
+    for i in range(1, len(Array1)) :
+        
+        Final.append(Array2)
+        Array2 = []
+        for j in Array1[i] :
+            
+            if j != ' ' and j != '0' :
+                if j == '-' :
+                    Flag = True 
+                elif Flag :
+                    Array2.append(int(j)*-1)
+                    Flag = False   
+                else : 
+                    Array2.append(int(j))     
+    Final.pop(0)
+    return Final
+
+#Question 7
+
+#Question 8
+def branching_sat_solve(clause_set, partial_assignment) :
 
 
+    def branching(clause_set, SAT, literal, partial_assignment, x) :
+        x += 1
+        SAT1 = copy.deepcopy(SAT)
+        SAT1.append(literal)
+        clause_setC = copy.deepcopy(clause_set)
+        popping = True
+        i = -1
+        while popping :
+            i += 1
+            clen = len(clause_setC)
+            if i == clen :
+                break
 
-#clause_set = [[1, 2], [1, -3], [3, 4], [5, 6], [-5, -6]]
-#clause_set = [[1, -2, 3], [-1, 2, -3]]
-clause_set = [[1, -2, 3],[1, -3],[-2, -3, 4], [1]]
+            if literal in clause_setC[i] :
+                clause_setC.pop(i)
+                i -= 1
+                clen -= 1
+                if clen == 0 :
+                    return SAT1
+        
+            elif literal*-1 in clause_setC[i] :
+                clause_setC[i].remove(literal*-1)
+                if len(clause_setC[i]) == 0 :
+                    return False       
+        if partial_assignment == [] :
+            next = branching(clause_setC, SAT1, clause_setC[0][0], partial_assignment, x)
+            if next :
+                return next 
+            return branching(clause_setC, SAT1, clause_setC[0][0]*-1, partial_assignment, x)
+        else :
+            if x == len(partial_assignment) :
+                return False
+            return branching(clause_setC, SAT1, partial_assignment[x], partial_assignment, x)
+        
+    SAT = []
+    if partial_assignment != [] :
+        literal = partial_assignment[0]
+    else :
+        literal = clause_set[0][0]
+    x = 0      
 
+
+    resulting = branching(clause_set, SAT, literal, partial_assignment, x)
+    if resulting != False :
+        for i in clause_set :
+            for j in i :
+                if j not in resulting and j*-1 not in resulting :
+                    resulting.append(j) 
+    return resulting
+
+#Question 9
+def unit_propogate(clause_set) :
+    done = False 
+    i = -1
+    while not done :
+        i += 1
+     
+        
+        if len(clause_set) != 0 and len(clause_set[i]) == 1 :
+            literal = clause_set[i][0]
+            clause_set.pop(i)
+            if len(clause_set) == 0 :
+                break
+            propogated = False
+            j = -1
+            i = -1
+            
+            while not propogated :
+                j += 1
+                
+                if literal in clause_set[j] :
+                    clause_set.pop(j)
+                    j -= 1
+                elif literal*-1 in clause_set[j] :
+                    clause_set[j].remove(literal*-1)
+                    j = -1
+                    
+                else :
+                    propogated = True 
+
+        else :
+            break
+    return clause_set
+
+
+#Question 10 
 def dpll_sat_solve(clause_set, partial_assignment) :
-    clause_setCopy = copy.deepcopy(clause_set)
     
-    
-    
+
     def pure_literal_elim(satisfying, clause_setCopy) :
         #determine which literals occur the most 
         #identify the pure literals
@@ -26,15 +135,9 @@ def dpll_sat_solve(clause_set, partial_assignment) :
             i += 1
             if i > len(clause_setCopy)-1 :
                 break
-            print(varIndex1, 'varIndex1')
-            print(varIndex2, 'varIndex2')
-            print(clause_setCopy, 'b4 var2')
+            
             CurrentVar = clause_setCopy[varIndex1][varIndex2]
-            print(CurrentVar, 'var')
-            
-            
-            print(i, 'index') 
-            print(clause_setCopy)   
+               
             if CurrentVar*-1 in clause_setCopy[i] :
                 if len(clause_setCopy[varIndex1])-1 == varIndex2 :
                     varIndex2 = 0 
@@ -55,13 +158,12 @@ def dpll_sat_solve(clause_set, partial_assignment) :
                     poppinIndex += 1
                     if poppinIndex == len(clause_setCopy) :
                         break
-                    print(poppinIndex, 'pop')
-                    print(clause_setCopy)
+                    
                     if CurrentVar in clause_setCopy[poppinIndex] :
                         clause_setCopy.pop(poppinIndex)
                         poppinIndex -= 1
                         if len(clause_setCopy) == 0 :
-                            print(clause_setCopy, 'clauseSetCopy')
+                            
                             satisfying.append(0)
                             return satisfying
         
@@ -83,8 +185,7 @@ def dpll_sat_solve(clause_set, partial_assignment) :
         i = -1
         while not done :
             i += 1
-            print(i)
-            print(clause_set)
+            
         
             if len(copiedclause_set) != 0 and len(copiedclause_set[i]) == 1 :
                 literal = copiedclause_set[i][0]
@@ -98,8 +199,7 @@ def dpll_sat_solve(clause_set, partial_assignment) :
             
                 while not propogated :
                     j += 1
-                    print(j)
-                    print(copiedclause_set)
+                   
                     if literal in copiedclause_set[j] :
                         copiedclause_set.pop(j)
                         j -= 1
@@ -178,33 +278,4 @@ def dpll_sat_solve(clause_set, partial_assignment) :
             for j in i :
                 if j not in resulting and j*-1 not in resulting :
                     resulting.append(j) 
-    return resulting    
-
-
-
- 
-partial_assignment = []
-hmm = dpll_sat_solve(clause_set, partial_assignment)
-print(hmm)
-   
-
-                            
-
-                
-
-                            
-
-
-
-
-                        
-
-
-
-
-
-        
-
-
-
-
+    return resulting

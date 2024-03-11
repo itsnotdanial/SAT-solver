@@ -1,5 +1,5 @@
 import copy 
-clause_set = [[1, -2], [-1, 2], [-1, -2], [1, 2]]
+clause_set = [[1], [-1]]
 
 def simple_sat_solve(clause_set) :
     

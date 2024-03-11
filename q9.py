@@ -1,4 +1,4 @@
-clause_set = [[1],[-1,2], [3], [4, 5]]
+clause_set = [[1],[-1,2]]
 
 def unit_propogate(clause_set) :
     done = False 
