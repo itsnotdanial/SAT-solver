@@ -1,5 +1,5 @@
 import copy 
-clause_set = [[1], [-1]]
+clause_set = [[1], [-1, 2], [4]]
 
 def simple_sat_solve(clause_set) :
     
@@ -34,6 +34,7 @@ def simple_sat_solve(clause_set) :
                     i[j] = False 
         print('clause', clause_set1)                
         
+        """
         if CurrentVar == Max or CurrentVar*-1 == Max :
             lol = finish(clause_set1)
              
@@ -42,22 +43,31 @@ def simple_sat_solve(clause_set) :
                 return SAT1
             else :
                 print('Entering F')
-                return None 
-        
-        
+                return None
+                """
+        everything = True
+        for something in clause_set1 :
+            for another in something :
+                if another == False or another == True :
+                    print('coolio2') 
+                else :
+                    everything = False
+                    another = CurrentVar
+                    break
 
-        if CurrentVar > 0 :
-            result = branching(Max, CurrentVar+1, SAT1, clause_set1)
-            if result :
-                return result  
-            return branching(Max, (CurrentVar*-1)-1, SAT1, clause_set1)
-        else :
-            
-            result = branching(Max, CurrentVar-1, SAT1, clause_set1)
-            if result :
-                return result
+        if everything == True :
+            lol = finish(clause_set1)
+            if lol == True :
+                return SAT1 
             else :
-                return branching(Max, (CurrentVar*-1)+1, SAT1, clause_set1) 
+                return None 
+                    
+        
+        result = branching(Max, CurrentVar, SAT1, clause_set1)
+        if result :
+            return result  
+        return branching(Max, (CurrentVar*-1), SAT1, clause_set1)
+        
 
     Max = 2
     CurrentVar = 1
@@ -79,7 +89,7 @@ print(y)
          
 
 
-
+#???????????
 
 
        
