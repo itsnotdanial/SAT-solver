@@ -1,0 +1,4497 @@
+c special sat "0"
+p cnf 5 3
+1 -2 -3 4 -5 0
+1 2 4 0
+1 3 0
+c special sat "1"
+p cnf 4 2
+1 2 3 -4 0
+-2 3 -4 0
+c special sat "2"
+p cnf 5 2
+1 2 -3 0
+-2 3 4 5 0
+c special sat "3"
+p cnf 5 2
+1 3 -4 0
+-1 2 -3 4 -5 0
+c special sat "4"
+p cnf 5 3
+-2 3 4 -5 0
+1 -2 -3 -4 0
+-1 -2 -3 -4 5 0
+c special sat "5"
+p cnf 5 2
+1 2 -3 -4 -5 0
+-1 -2 3 -4 -5 0
+c special sat "6"
+p cnf 5 2
+-1 2 -3 4 0
+-1 4 5 0
+c special sat "7"
+p cnf 5 3
+1 2 -3 -5 0
+-3 -4 5 0
+-1 -2 3 5 0
+c special sat "8"
+p cnf 5 3
+-1 -2 -5 0
+-1 2 -3 4 0
+1 2 3 4 -5 0
+c special sat "9"
+p cnf 5 3
+-1 -2 -3 4 5 0
+1 2 -3 0
+-1 -2 -3 -4 5 0
+c special sat "10"
+p cnf 5 3
+-2 -3 4 0
+1 2 3 -5 0
+1 2 3 -4 0
+c special sat "11"
+p cnf 5 2
+-1 2 3 4 -5 0
+-1 -2 4 0
+c special sat "12"
+p cnf 5 2
+-1 -2 3 4 -5 0
+-1 -2 -3 4 -5 0
+c special sat "13"
+p cnf 5 2
+1 -3 4 5 0
+-1 2 3 4 0
+c special sat "14"
+p cnf 5 2
+1 -2 3 0
+1 -2 -3 -4 5 0
+c special sat "15"
+p cnf 5 3
+1 -3 4 0
+1 -2 -3 4 5 0
+2 5 0
+c special sat "16"
+p cnf 5 3
+2 3 -4 5 0
+2 -3 4 0
+1 2 4 5 0
+c special sat "17"
+p cnf 5 3
+1 -2 3 -4 0
+1 -3 4 5 0
+-1 2 3 4 -5 0
+c special sat "18"
+p cnf 5 3
+1 -3 4 0
+-1 3 4 0
+-1 2 3 -4 -5 0
+c special sat "19"
+p cnf 5 2
+-1 2 3 -4 0
+-1 2 -3 4 -5 0
+c special sat "20"
+p cnf 5 2
+1 2 -3 -4 0
+-1 2 -4 5 0
+c special sat "21"
+p cnf 5 2
+-1 2 3 0
+1 -2 -3 4 -5 0
+c special sat "22"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+1 2 -3 4 5 0
+1 -2 3 -4 5 0
+c special sat "23"
+p cnf 4 2
+1 -3 4 0
+1 -2 -4 0
+c special sat "24"
+p cnf 5 2
+1 -2 -3 4 0
+1 -2 4 -5 0
+c special sat "25"
+p cnf 5 3
+-2 -3 -4 -5 0
+1 -2 -3 0
+-1 -2 3 -4 0
+c special sat "26"
+p cnf 5 3
+-1 -2 4 0
+-3 -4 5 0
+-1 2 3 -4 -5 0
+c special sat "27"
+p cnf 5 2
+-1 -2 5 0
+1 2 3 -4 0
+c special sat "28"
+p cnf 5 3
+1 -2 4 0
+-1 -3 -4 0
+-2 4 -5 0
+c special sat "29"
+p cnf 5 2
+-1 -2 -3 4 0
+1 -2 3 4 5 0
+c special sat "30"
+p cnf 5 2
+-1 -2 3 -4 5 0
+1 2 4 0
+c special sat "31"
+p cnf 4 2
+3 -4 0
+1 3 4 0
+c special sat "32"
+p cnf 5 2
+1 2 3 4 0
+-1 -2 3 4 -5 0
+c special sat "33"
+p cnf 5 2
+1 -2 4 5 0
+1 2 3 5 0
+c special sat "34"
+p cnf 5 3
+1 3 -4 -5 0
+1 -2 -3 0
+-2 3 4 0
+c special sat "35"
+p cnf 4 2
+-1 0
+-1 -2 3 -4 0
+c special sat "36"
+p cnf 4 2
+-1 -2 3 4 0
+1 3 -4 0
+c special sat "37"
+p cnf 5 3
+1 -2 3 5 0
+-1 2 -3 -5 0
+1 2 -3 4 0
+c special sat "38"
+p cnf 5 2
+-1 2 -3 -4 -5 0
+-3 -4 5 0
+c special sat "39"
+p cnf 5 3
+-1 2 5 0
+-1 2 -4 -5 0
+1 -2 3 -4 0
+c special sat "40"
+p cnf 5 3
+-1 -2 -3 -4 5 0
+-1 2 -3 0
+-1 -2 -3 4 -5 0
+c special sat "41"
+p cnf 5 2
+1 3 -4 0
+-1 2 3 4 5 0
+c special sat "42"
+p cnf 5 3
+-1 2 -3 4 5 0
+1 -2 -3 -4 5 0
+-1 2 4 5 0
+c special sat "43"
+p cnf 4 3
+-1 -2 -3 0
+-1 -2 4 0
+-1 -2 -3 -4 0
+c special sat "44"
+p cnf 5 3
+-1 -3 4 -5 0
+3 -4 0
+1 -2 -4 5 0
+c special sat "45"
+p cnf 5 3
+1 -2 3 4 0
+-1 -2 -3 4 0
+1 2 5 0
+c special sat "46"
+p cnf 4 2
+1 -2 3 -4 0
+-1 -2 0
+c special sat "47"
+p cnf 5 2
+-1 2 3 4 -5 0
+1 -2 3 5 0
+c special sat "48"
+p cnf 5 3
+1 -3 4 0
+1 -2 3 0
+2 3 -4 -5 0
+c special sat "49"
+p cnf 5 3
+1 -2 -3 5 0
+-1 2 3 -4 5 0
+-1 2 -3 4 -5 0
+c special sat "50"
+p cnf 4 2
+1 2 -3 4 0
+1 -2 -3 0
+c special sat "51"
+p cnf 4 2
+-1 2 -3 -4 0
+1 2 3 -4 0
+c special sat "52"
+p cnf 5 2
+1 -2 3 4 0
+1 2 3 -4 5 0
+c special sat "53"
+p cnf 5 2
+-1 -3 4 -5 0
+1 2 4 0
+c special sat "54"
+p cnf 5 3
+2 -3 5 0
+1 -2 4 5 0
+-1 3 -4 0
+c special sat "55"
+p cnf 5 2
+-1 -3 0
+-1 -2 -4 -5 0
+c special sat "56"
+p cnf 5 3
+1 2 -3 -4 -5 0
+-1 -2 0
+-1 2 -3 4 0
+c special sat "57"
+p cnf 4 2
+1 3 -4 0
+2 3 -4 0
+c special sat "58"
+p cnf 5 3
+-1 3 4 0
+1 -3 -4 -5 0
+-2 3 0
+c special sat "59"
+p cnf 5 3
+1 2 -3 4 -5 0
+-1 3 4 -5 0
+-2 3 4 -5 0
+c special sat "60"
+p cnf 4 3
+2 3 -4 0
+-1 -2 -3 -4 0
+1 4 0
+c special sat "61"
+p cnf 5 2
+-1 2 -3 -5 0
+-1 3 -4 0
+c special sat "62"
+p cnf 5 2
+1 2 3 5 0
+1 -3 -4 0
+c special sat "63"
+p cnf 5 2
+-1 -2 3 4 0
+-1 2 -4 5 0
+c special sat "64"
+p cnf 4 3
+-1 3 -4 0
+-1 2 3 -4 0
+1 -2 3 4 0
+c special sat "65"
+p cnf 5 2
+-1 -2 3 4 0
+1 2 3 4 5 0
+c special sat "66"
+p cnf 5 3
+1 2 4 5 0
+2 -3 -5 0
+1 2 3 4 0
+c special sat "67"
+p cnf 5 2
+1 -2 -3 4 -5 0
+-1 2 3 -5 0
+c special unsat "68"
+p cnf 4 3
+2 4 0
+-2 0
+2 -4 0
+c special sat "69"
+p cnf 5 3
+1 2 3 -4 0
+-1 2 -4 0
+2 -3 -4 -5 0
+c special sat "70"
+p cnf 5 3
+2 -3 -4 0
+-1 -2 -3 4 -5 0
+-1 3 -4 0
+c special sat "71"
+p cnf 5 2
+1 -3 -5 0
+1 2 3 5 0
+c special sat "72"
+p cnf 5 3
+-1 2 3 0
+-1 -2 3 0
+-1 3 -5 0
+c special sat "73"
+p cnf 5 2
+1 -2 -4 -5 0
+1 2 -4 0
+c special sat "74"
+p cnf 5 3
+1 -2 3 -4 0
+-1 -3 4 0
+-2 -3 4 5 0
+c special sat "75"
+p cnf 4 2
+1 -2 -3 4 0
+2 -3 4 0
+c special sat "76"
+p cnf 5 3
+1 2 -4 5 0
+-1 -2 3 -4 -5 0
+-1 -2 -3 -4 0
+c special sat "77"
+p cnf 5 3
+-1 -2 -3 5 0
+2 -3 -4 5 0
+-4 0
+c special sat "78"
+p cnf 5 2
+1 3 4 -5 0
+-1 -4 -5 0
+c special sat "79"
+p cnf 4 2
+-3 0
+-1 -2 3 -4 0
+c special sat "80"
+p cnf 5 2
+1 -3 4 -5 0
+-1 2 -3 4 0
+c special sat "81"
+p cnf 4 2
+2 3 -4 0
+2 -3 -4 0
+c special sat "82"
+p cnf 5 3
+1 -2 4 0
+-1 -3 4 0
+1 -2 -3 4 -5 0
+c special sat "83"
+p cnf 5 3
+-1 2 -4 0
+-1 3 -4 -5 0
+-2 -3 4 5 0
+c special sat "84"
+p cnf 5 3
+-2 -3 -4 -5 0
+1 2 -3 -4 0
+-1 2 -3 -4 0
+c special sat "85"
+p cnf 5 2
+1 2 -3 -4 0
+1 2 3 4 5 0
+c special sat "86"
+p cnf 5 3
+-1 2 3 -4 0
+1 2 -3 4 -5 0
+2 3 4 -5 0
+c special sat "87"
+p cnf 4 2
+2 3 4 0
+-1 -2 4 0
+c special sat "88"
+p cnf 5 2
+-1 2 -4 5 0
+1 2 -5 0
+c special sat "89"
+p cnf 4 3
+1 -2 -3 4 0
+1 2 -3 4 0
+1 -3 -4 0
+c special sat "90"
+p cnf 5 2
+1 -2 4 5 0
+-1 2 -3 -4 -5 0
+c special sat "91"
+p cnf 4 3
+-1 -2 -3 4 0
+-1 -2 3 -4 0
+2 4 0
+c special sat "92"
+p cnf 5 3
+1 -2 3 -4 -5 0
+-1 -2 -3 -4 0
+-1 -2 3 4 -5 0
+c special sat "93"
+p cnf 5 2
+-2 -3 -5 0
+1 -2 3 4 -5 0
+c special sat "94"
+p cnf 5 3
+1 2 4 0
+1 -2 3 4 -5 0
+1 -2 -4 0
+c special sat "95"
+p cnf 4 3
+1 2 3 -4 0
+-1 -2 3 4 0
+1 3 -4 0
+c special sat "96"
+p cnf 5 3
+-2 3 0
+-1 -2 3 -5 0
+2 3 4 0
+c special sat "97"
+p cnf 4 2
+-1 2 -3 -4 0
+-1 -2 -3 4 0
+c special sat "98"
+p cnf 5 3
+-1 2 -3 -4 0
+1 2 4 0
+-1 2 3 4 5 0
+c special sat "99"
+p cnf 4 3
+1 -2 3 -4 0
+1 -2 -3 -4 0
+-2 3 0
+c special sat "100"
+p cnf 5 2
+1 2 3 0
+-1 2 -3 -5 0
+c special sat "101"
+p cnf 5 2
+-2 3 4 -5 0
+1 -2 -3 -5 0
+c special sat "102"
+p cnf 5 2
+1 -4 5 0
+-1 -2 3 -4 -5 0
+c special sat "103"
+p cnf 5 3
+1 2 0
+-1 4 5 0
+1 -2 -3 0
+c special sat "104"
+p cnf 4 2
+2 3 0
+2 3 -4 0
+c special sat "105"
+p cnf 5 3
+2 3 -4 0
+1 2 4 0
+1 -4 5 0
+c special sat "106"
+p cnf 5 3
+-1 -3 0
+-1 -2 4 0
+-2 -5 0
+c special sat "107"
+p cnf 4 2
+-1 2 -3 4 0
+-1 -2 4 0
+c special sat "108"
+p cnf 5 2
+-1 2 -3 -4 0
+1 3 -5 0
+c special sat "109"
+p cnf 5 3
+-1 -2 3 4 0
+-2 3 0
+2 3 4 5 0
+c special sat "110"
+p cnf 5 2
+3 0
+1 -3 4 5 0
+c special sat "111"
+p cnf 5 3
+1 -2 -4 0
+-2 3 4 0
+-1 -2 -4 5 0
+c special sat "112"
+p cnf 5 3
+2 3 -4 -5 0
+1 2 4 5 0
+1 -2 -5 0
+c special sat "113"
+p cnf 5 3
+1 -2 -3 -4 0
+-1 2 3 -4 5 0
+1 -2 -4 0
+c special sat "114"
+p cnf 5 3
+1 -2 3 5 0
+1 2 4 5 0
+-1 -2 4 -5 0
+c special sat "115"
+p cnf 4 2
+1 -3 -4 0
+1 -2 3 4 0
+c special sat "116"
+p cnf 4 2
+1 -3 4 0
+-1 2 -3 4 0
+c special sat "117"
+p cnf 4 3
+1 -2 3 4 0
+-1 -2 -4 0
+4 0
+c special sat "118"
+p cnf 5 2
+2 -3 -4 0
+1 2 3 5 0
+c special sat "119"
+p cnf 4 3
+1 2 3 4 0
+1 -3 -4 0
+-1 2 4 0
+c special sat "120"
+p cnf 5 2
+-1 -2 -3 4 0
+-1 -2 -3 -4 -5 0
+c special sat "121"
+p cnf 5 3
+1 -2 3 -4 5 0
+-1 2 -3 4 0
+-1 2 3 4 -5 0
+c special sat "122"
+p cnf 5 2
+-1 -2 3 -4 0
+1 -2 3 4 -5 0
+c special sat "123"
+p cnf 5 3
+2 3 4 -5 0
+-1 -2 -3 0
+-1 -2 -3 -4 -5 0
+c special sat "124"
+p cnf 4 3
+-1 -2 -4 0
+-2 -3 0
+-1 0
+c special sat "125"
+p cnf 4 3
+2 4 0
+-1 2 3 4 0
+2 -4 0
+c special sat "126"
+p cnf 5 3
+-4 0
+-1 -2 -3 4 -5 0
+1 3 4 -5 0
+c special sat "127"
+p cnf 5 3
+1 3 -4 0
+-2 3 4 -5 0
+-1 2 -3 -4 0
+c special sat "128"
+p cnf 4 3
+1 2 -3 4 0
+-2 -3 -4 0
+-1 2 3 -4 0
+c special sat "129"
+p cnf 4 2
+-1 2 -3 4 0
+-1 -2 -3 -4 0
+c special sat "130"
+p cnf 5 3
+-1 2 3 4 0
+1 2 -4 0
+1 -2 4 5 0
+c special sat "131"
+p cnf 4 3
+-2 -3 -4 0
+-2 -3 0
+1 -2 -3 -4 0
+c special sat "132"
+p cnf 5 2
+-1 2 -3 4 -5 0
+-1 -2 3 4 -5 0
+c special sat "133"
+p cnf 4 3
+1 -2 3 -4 0
+-1 -2 4 0
+2 3 -4 0
+c special sat "134"
+p cnf 5 3
+-1 -2 -3 4 5 0
+2 3 5 0
+1 4 0
+c special sat "135"
+p cnf 4 2
+1 2 3 4 0
+-2 0
+c special sat "136"
+p cnf 5 3
+-1 -3 -4 -5 0
+-1 -2 4 5 0
+1 -2 -3 0
+c special sat "137"
+p cnf 5 3
+-1 2 3 -4 0
+-1 -2 -4 0
+-1 -2 3 -4 -5 0
+c special sat "138"
+p cnf 5 3
+1 2 -3 -4 5 0
+2 -4 5 0
+1 -2 3 4 5 0
+c special sat "139"
+p cnf 4 2
+-2 3 4 0
+-2 3 4 0
+c special sat "140"
+p cnf 5 3
+1 -2 4 0
+-1 -2 -3 -4 5 0
+-1 2 -3 4 0
+c special sat "141"
+p cnf 5 3
+1 -2 3 4 5 0
+2 4 0
+-1 3 -4 0
+c special sat "142"
+p cnf 5 3
+1 2 4 5 0
+-2 3 -4 0
+-1 -3 4 0
+c special sat "143"
+p cnf 4 2
+-1 3 -4 0
+1 -2 -4 0
+c special sat "144"
+p cnf 5 3
+-1 4 0
+1 -2 -4 0
+3 4 -5 0
+c special sat "145"
+p cnf 5 3
+1 2 0
+1 -2 3 5 0
+-1 2 3 -4 -5 0
+c special sat "146"
+p cnf 5 3
+1 2 -3 4 -5 0
+-1 -2 -3 0
+-1 2 -4 -5 0
+c special sat "147"
+p cnf 5 3
+1 2 -3 4 0
+1 -2 0
+1 2 -4 -5 0
+c special sat "148"
+p cnf 4 2
+-1 2 3 4 0
+1 -4 0
+c special sat "149"
+p cnf 5 3
+1 2 -3 -4 5 0
+1 -2 3 -4 0
+-1 2 3 4 5 0
+c special sat "150"
+p cnf 5 3
+1 -2 -3 4 0
+-1 -2 3 0
+1 2 -3 4 5 0
+c special sat "151"
+p cnf 5 3
+-1 -2 3 0
+-1 2 -3 4 -5 0
+-3 4 5 0
+c special sat "152"
+p cnf 5 3
+1 -2 -3 -4 0
+1 -3 -5 0
+-1 -2 -4 0
+c special sat "153"
+p cnf 5 3
+-1 3 -4 0
+-1 3 4 -5 0
+1 -3 -4 0
+c special sat "154"
+p cnf 5 2
+-2 3 -4 5 0
+1 -2 3 4 0
+c special sat "155"
+p cnf 5 2
+-1 2 -3 4 -5 0
+-1 -2 3 4 0
+c special sat "156"
+p cnf 4 3
+-1 -2 0
+2 -3 0
+2 3 4 0
+c special sat "157"
+p cnf 4 2
+-1 3 4 0
+-1 -2 3 -4 0
+c special sat "158"
+p cnf 5 3
+1 2 0
+1 2 -3 4 0
+1 -2 -3 4 5 0
+c special sat "159"
+p cnf 5 3
+-1 2 -4 0
+1 -2 3 -4 0
+1 2 3 4 -5 0
+c special sat "160"
+p cnf 5 2
+-1 2 -3 -4 0
+-1 2 -3 4 5 0
+c special sat "161"
+p cnf 5 3
+-1 2 -3 4 0
+1 -2 -4 5 0
+1 2 -3 -4 5 0
+c special sat "162"
+p cnf 5 2
+2 -3 4 0
+-1 2 -3 -4 5 0
+c special sat "163"
+p cnf 5 2
+2 -4 0
+1 2 3 4 -5 0
+c special sat "164"
+p cnf 5 2
+-1 -3 5 0
+1 -2 3 0
+c special sat "165"
+p cnf 5 2
+-1 2 3 -4 5 0
+1 -2 -3 0
+c special sat "166"
+p cnf 5 3
+1 2 3 -4 5 0
+1 -2 3 -5 0
+3 4 -5 0
+c special sat "167"
+p cnf 5 3
+-1 -2 3 0
+-1 3 4 5 0
+1 -2 -3 4 0
+c special sat "168"
+p cnf 5 3
+1 3 -4 0
+1 2 -3 -4 5 0
+1 2 3 4 0
+c special sat "169"
+p cnf 5 2
+1 -4 -5 0
+-1 -2 3 0
+c special sat "170"
+p cnf 5 2
+-1 2 3 0
+-1 2 -3 4 5 0
+c special sat "171"
+p cnf 5 3
+1 -3 -4 0
+1 -2 4 -5 0
+1 2 4 5 0
+c special sat "172"
+p cnf 5 2
+-2 5 0
+-1 -2 -3 -4 0
+c special sat "173"
+p cnf 4 2
+-1 -2 -3 0
+-1 -3 -4 0
+c special sat "174"
+p cnf 5 3
+1 2 3 4 5 0
+2 3 5 0
+1 -2 3 -4 0
+c special sat "175"
+p cnf 5 3
+1 -2 3 4 0
+-1 -2 -3 5 0
+1 -2 -3 4 -5 0
+c special sat "176"
+p cnf 5 3
+-1 2 -3 0
+1 2 -3 5 0
+-1 2 -3 0
+c special sat "177"
+p cnf 4 2
+-1 2 4 0
+1 -2 3 0
+c special sat "178"
+p cnf 5 3
+-1 0
+2 -3 5 0
+-1 2 -3 -4 5 0
+c special sat "179"
+p cnf 5 3
+2 -5 0
+-1 -2 -3 0
+-1 -2 4 -5 0
+c special sat "180"
+p cnf 4 2
+-1 -2 3 4 0
+-1 2 3 -4 0
+c special sat "181"
+p cnf 5 3
+1 3 -4 0
+-1 -2 3 4 5 0
+1 2 4 0
+c special sat "182"
+p cnf 5 3
+1 -2 4 5 0
+-1 -3 4 0
+1 3 -4 0
+c special sat "183"
+p cnf 5 3
+-1 -2 -3 4 -5 0
+1 -2 -4 5 0
+1 2 -3 -4 -5 0
+c special sat "184"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+2 -3 -4 0
+-1 -3 0
+c special sat "185"
+p cnf 5 2
+1 -2 3 -4 5 0
+-1 -2 3 -4 0
+c special sat "186"
+p cnf 5 3
+1 -2 -3 -4 5 0
+-1 2 3 4 0
+2 -5 0
+c special sat "187"
+p cnf 4 3
+-2 3 4 0
+1 -2 -4 0
+-1 -3 4 0
+c special sat "188"
+p cnf 5 3
+-1 -2 3 4 0
+1 2 3 -5 0
+1 2 -4 0
+c special sat "189"
+p cnf 4 2
+-1 -2 -3 4 0
+2 -3 0
+c special sat "190"
+p cnf 4 2
+1 2 -3 4 0
+-1 -2 3 4 0
+c special sat "191"
+p cnf 5 2
+-1 3 0
+-1 2 -4 -5 0
+c special sat "192"
+p cnf 5 3
+1 -2 3 -4 0
+-1 -2 3 -4 0
+-1 3 -4 -5 0
+c special sat "193"
+p cnf 4 2
+-1 2 3 4 0
+-1 -2 -4 0
+c special sat "194"
+p cnf 5 3
+1 3 4 -5 0
+-1 2 3 -4 0
+1 -2 3 4 5 0
+c special sat "195"
+p cnf 4 2
+1 2 3 4 0
+-1 2 3 -4 0
+c special sat "196"
+p cnf 5 2
+-1 -3 4 -5 0
+-1 -2 3 4 0
+c special sat "197"
+p cnf 5 2
+2 4 5 0
+3 0
+c special sat "198"
+p cnf 3 2
+-1 -2 0
+-1 2 3 0
+c special sat "199"
+p cnf 5 2
+5 0
+-1 -2 -5 0
+c special sat "200"
+p cnf 4 2
+-1 2 -3 -4 0
+2 -3 0
+c special sat "201"
+p cnf 5 3
+-1 3 4 0
+-1 3 4 0
+1 3 -4 5 0
+c special sat "202"
+p cnf 5 2
+-1 -3 4 5 0
+-1 2 3 -5 0
+c special sat "203"
+p cnf 5 3
+-1 2 0
+1 2 -3 4 0
+-1 -2 3 -4 -5 0
+c special sat "204"
+p cnf 5 2
+-1 -2 -3 4 0
+-1 2 -3 4 5 0
+c special sat "205"
+p cnf 5 3
+-1 2 3 4 0
+-1 2 5 0
+-1 -3 4 0
+c special sat "206"
+p cnf 5 2
+-2 3 -4 0
+1 -2 3 -4 -5 0
+c special sat "207"
+p cnf 5 2
+-1 2 -3 4 5 0
+1 -3 4 0
+c special sat "208"
+p cnf 5 3
+-2 -3 -4 -5 0
+-1 2 -3 4 0
+2 3 -4 0
+c special sat "209"
+p cnf 5 3
+-1 2 3 4 0
+1 -2 -4 -5 0
+1 3 4 0
+c special sat "210"
+p cnf 5 2
+2 3 5 0
+-1 -2 -4 0
+c special sat "211"
+p cnf 5 3
+1 -3 -4 -5 0
+1 2 -4 0
+-1 -3 4 5 0
+c special sat "212"
+p cnf 4 2
+-1 -2 3 4 0
+3 4 0
+c special sat "213"
+p cnf 5 3
+1 2 -3 4 0
+-1 -2 -3 4 -5 0
+-2 -3 -4 -5 0
+c special sat "214"
+p cnf 5 3
+1 2 4 0
+-2 3 4 0
+-1 2 3 4 -5 0
+c special sat "215"
+p cnf 4 2
+-1 -2 -3 4 0
+2 -4 0
+c special sat "216"
+p cnf 5 2
+1 2 3 -4 -5 0
+1 2 4 0
+c special sat "217"
+p cnf 5 3
+-1 3 -4 0
+-1 3 4 0
+-1 4 -5 0
+c special sat "218"
+p cnf 5 3
+-1 -3 4 5 0
+1 2 3 4 -5 0
+-1 -2 0
+c special sat "219"
+p cnf 5 2
+-2 3 4 0
+-1 2 3 -4 -5 0
+c special sat "220"
+p cnf 5 3
+3 -4 -5 0
+-1 -2 -3 -4 0
+-1 2 5 0
+c special sat "221"
+p cnf 5 2
+1 -3 -4 -5 0
+-1 -2 -3 -4 5 0
+c special sat "222"
+p cnf 4 2
+1 -2 3 0
+1 2 3 -4 0
+c special sat "223"
+p cnf 4 2
+-1 2 -3 4 0
+-1 2 3 4 0
+c special sat "224"
+p cnf 5 2
+-1 -2 3 4 5 0
+1 -2 -3 -5 0
+c special sat "225"
+p cnf 5 2
+3 -4 5 0
+-2 3 -4 0
+c special sat "226"
+p cnf 5 3
+1 2 -3 0
+1 -4 0
+1 2 3 4 -5 0
+c special sat "227"
+p cnf 5 3
+-1 -2 3 -4 -5 0
+-1 3 -4 -5 0
+-1 2 -3 4 0
+c special sat "228"
+p cnf 5 3
+1 2 -3 -4 -5 0
+-1 -2 3 4 0
+1 3 -4 5 0
+c special sat "229"
+p cnf 5 3
+-2 -3 -4 5 0
+1 2 3 4 -5 0
+1 2 -3 -4 -5 0
+c special sat "230"
+p cnf 5 3
+1 2 3 -4 5 0
+1 -2 3 4 5 0
+2 3 4 0
+c special sat "231"
+p cnf 5 3
+-1 -2 -5 0
+-1 3 -4 0
+-1 -2 3 4 -5 0
+c special sat "232"
+p cnf 4 2
+-3 -4 0
+-2 -3 0
+c special sat "233"
+p cnf 5 3
+1 -2 3 4 5 0
+1 -3 -4 0
+-1 -2 -3 4 0
+c special sat "234"
+p cnf 5 3
+-1 2 -3 4 0
+-1 -2 3 4 0
+1 -3 -4 5 0
+c special sat "235"
+p cnf 5 3
+-1 -4 -5 0
+-1 2 -3 4 0
+-1 2 3 -4 5 0
+c special sat "236"
+p cnf 5 2
+-1 -2 -3 -4 0
+-1 -2 3 -4 5 0
+c special sat "237"
+p cnf 4 3
+1 -3 4 0
+-1 -2 3 0
+-1 2 4 0
+c special sat "238"
+p cnf 5 3
+1 2 3 4 -5 0
+-1 2 -3 -4 0
+-1 2 3 0
+c special sat "239"
+p cnf 5 3
+-1 2 -3 4 5 0
+-1 2 -4 0
+1 2 -3 4 5 0
+c special sat "240"
+p cnf 5 2
+1 -2 -3 5 0
+-1 -2 -3 4 -5 0
+c special sat "241"
+p cnf 5 3
+1 -3 4 -5 0
+-3 4 0
+1 -2 -3 -4 5 0
+c special sat "242"
+p cnf 5 3
+1 3 -4 0
+-1 -2 3 4 0
+-1 -2 3 -5 0
+c special sat "243"
+p cnf 4 3
+1 -3 4 0
+-1 3 4 0
+-1 4 0
+c special sat "244"
+p cnf 4 3
+-1 3 -4 0
+2 -3 -4 0
+-1 -2 -3 0
+c special sat "245"
+p cnf 5 2
+-1 -4 5 0
+1 -2 -3 4 0
+c special sat "246"
+p cnf 4 3
+1 3 -4 0
+-1 2 3 4 0
+1 2 4 0
+c special sat "247"
+p cnf 5 2
+-1 -2 -3 5 0
+-1 2 3 4 -5 0
+c special sat "248"
+p cnf 4 3
+-2 3 4 0
+-1 2 3 0
+-2 3 0
+c special sat "249"
+p cnf 5 2
+2 4 -5 0
+1 2 0
+c special sat "250"
+p cnf 5 2
+1 -3 4 -5 0
+-1 -2 4 -5 0
+c special sat "251"
+p cnf 5 2
+-1 2 3 4 5 0
+-1 2 3 -4 -5 0
+c special sat "252"
+p cnf 5 2
+1 2 3 -4 5 0
+-2 3 -4 0
+c special sat "253"
+p cnf 4 2
+1 4 0
+-1 2 -3 4 0
+c special sat "254"
+p cnf 5 3
+1 0
+1 -2 3 -4 5 0
+-2 3 -4 5 0
+c special sat "255"
+p cnf 5 2
+-3 4 5 0
+2 -3 4 0
+c special sat "256"
+p cnf 4 3
+1 2 3 4 0
+-1 -2 -3 4 0
+1 4 0
+c special sat "257"
+p cnf 5 2
+1 -2 4 -5 0
+1 -2 -3 4 5 0
+c special sat "258"
+p cnf 4 2
+2 4 0
+1 -2 -3 4 0
+c special sat "259"
+p cnf 4 2
+-1 -3 4 0
+1 2 3 4 0
+c special sat "260"
+p cnf 5 2
+-1 2 3 4 0
+2 -4 5 0
+c special sat "261"
+p cnf 5 3
+1 -2 -3 -4 0
+-1 -2 -3 -4 -5 0
+-2 -3 4 0
+c special sat "262"
+p cnf 4 2
+-1 2 -3 -4 0
+1 2 -4 0
+c special sat "263"
+p cnf 4 2
+-1 -2 -3 -4 0
+-1 -2 3 -4 0
+c special sat "264"
+p cnf 5 3
+-1 -2 3 -4 0
+1 2 3 -4 0
+1 -2 -3 4 -5 0
+c special sat "265"
+p cnf 5 2
+-2 -3 4 0
+-1 -2 -3 -5 0
+c special sat "266"
+p cnf 5 3
+-3 4 5 0
+-1 -2 -3 -4 5 0
+-1 -2 4 0
+c special sat "267"
+p cnf 5 2
+1 -2 -3 -4 0
+-1 -2 4 -5 0
+c special sat "268"
+p cnf 5 2
+-2 3 -4 0
+-1 2 -4 5 0
+c special sat "269"
+p cnf 4 2
+3 0
+-1 -2 3 -4 0
+c special sat "270"
+p cnf 5 3
+1 4 0
+-1 -2 4 0
+-1 -2 -4 5 0
+c special sat "271"
+p cnf 5 3
+1 -2 -4 0
+-2 3 -4 5 0
+1 -2 3 -5 0
+c special sat "272"
+p cnf 5 3
+1 -2 -3 -4 -5 0
+1 2 3 4 -5 0
+-1 2 -3 -5 0
+c special sat "273"
+p cnf 5 3
+-2 -3 5 0
+1 -2 3 5 0
+-1 4 0
+c special sat "274"
+p cnf 5 3
+-1 -2 -3 5 0
+1 -2 -3 -4 5 0
+-4 0
+c special sat "275"
+p cnf 5 3
+1 0
+1 2 -3 0
+1 -2 3 4 -5 0
+c special sat "276"
+p cnf 4 3
+-1 -2 -3 4 0
+1 2 3 -4 0
+1 -4 0
+c special sat "277"
+p cnf 5 3
+-1 2 -3 4 0
+1 2 3 4 5 0
+-1 -2 -3 0
+c special sat "278"
+p cnf 5 3
+2 -3 4 -5 0
+1 2 -3 -4 0
+-1 2 4 0
+c special sat "279"
+p cnf 4 2
+2 3 -4 0
+1 2 3 0
+c special sat "280"
+p cnf 5 2
+1 2 3 0
+-2 4 5 0
+c special sat "281"
+p cnf 5 2
+1 4 0
+-1 -2 3 -5 0
+c special sat "282"
+p cnf 5 2
+2 -3 -4 5 0
+-1 -2 3 -4 0
+c special sat "283"
+p cnf 5 3
+1 -2 -3 -4 5 0
+2 -3 4 0
+-2 -3 -4 0
+c special sat "284"
+p cnf 5 3
+-1 -2 -3 4 0
+1 -2 -3 0
+-3 4 -5 0
+c special sat "285"
+p cnf 5 2
+1 -2 3 -4 -5 0
+-1 2 3 4 0
+c special sat "286"
+p cnf 5 2
+1 2 4 0
+1 -2 3 4 -5 0
+c special sat "287"
+p cnf 5 2
+1 3 4 -5 0
+4 -5 0
+c special sat "288"
+p cnf 4 3
+-1 2 3 -4 0
+1 2 -3 -4 0
+-1 2 0
+c special sat "289"
+p cnf 5 2
+-1 -2 -3 -4 -5 0
+1 -2 3 4 0
+c special sat "290"
+p cnf 5 3
+2 3 4 0
+1 -2 -3 4 0
+1 2 -3 5 0
+c special sat "291"
+p cnf 5 3
+1 2 3 0
+-1 -2 -3 4 5 0
+-1 4 5 0
+c special sat "292"
+p cnf 5 2
+-1 -2 4 -5 0
+-1 -3 -5 0
+c special sat "293"
+p cnf 5 3
+2 3 4 5 0
+1 -2 3 -4 5 0
+2 0
+c special sat "294"
+p cnf 5 3
+2 -3 4 0
+-5 0
+-1 2 3 4 -5 0
+c special sat "295"
+p cnf 5 3
+-1 -3 4 0
+1 -2 -3 4 5 0
+-1 2 3 -4 0
+c special sat "296"
+p cnf 5 3
+-1 3 4 0
+-1 3 0
+1 -3 -4 5 0
+c special sat "297"
+p cnf 5 2
+1 4 0
+2 -3 5 0
+c special sat "298"
+p cnf 4 3
+-1 -2 -3 4 0
+-1 -2 -3 0
+1 -2 4 0
+c special sat "299"
+p cnf 5 3
+1 2 -3 0
+-2 3 -4 -5 0
+1 2 -3 4 0
+c special sat "300"
+p cnf 5 2
+1 -2 3 -4 -5 0
+-1 2 -3 -4 0
+c special sat "301"
+p cnf 5 2
+1 -2 3 4 0
+-1 -3 5 0
+c special sat "302"
+p cnf 5 3
+2 3 4 0
+1 -3 4 -5 0
+-2 -3 -4 0
+c special sat "303"
+p cnf 4 2
+-1 4 0
+1 -2 -3 4 0
+c special sat "304"
+p cnf 5 2
+-1 3 0
+1 2 -3 -4 -5 0
+c special sat "305"
+p cnf 4 3
+2 4 0
+1 2 -4 0
+1 2 3 -4 0
+c special sat "306"
+p cnf 5 2
+-1 2 3 4 0
+-1 2 3 5 0
+c special sat "307"
+p cnf 5 2
+1 2 3 4 5 0
+1 2 -3 4 -5 0
+c special sat "308"
+p cnf 5 3
+-1 3 4 0
+-2 -3 -5 0
+1 -2 -3 -4 0
+c special sat "309"
+p cnf 4 3
+-1 2 -3 -4 0
+-1 -2 3 4 0
+-1 -2 -3 -4 0
+c special sat "310"
+p cnf 4 2
+-2 3 -4 0
+-2 -4 0
+c special sat "311"
+p cnf 5 2
+3 0
+-2 -5 0
+c special sat "312"
+p cnf 4 2
+-1 3 4 0
+-3 -4 0
+c special sat "313"
+p cnf 5 2
+-1 -2 5 0
+1 2 3 4 0
+c special sat "314"
+p cnf 5 2
+-1 -2 -3 -4 0
+-1 2 3 -4 5 0
+c special sat "315"
+p cnf 4 2
+-2 -3 0
+-2 -3 -4 0
+c special sat "316"
+p cnf 5 2
+1 -2 -3 -4 0
+1 2 3 5 0
+c special sat "317"
+p cnf 5 3
+-1 -2 -4 -5 0
+-1 2 -3 4 0
+-2 3 4 0
+c special sat "318"
+p cnf 5 3
+-1 -3 -4 -5 0
+2 3 4 5 0
+1 2 3 4 -5 0
+c special sat "319"
+p cnf 5 2
+-2 -4 0
+-1 -2 -3 -5 0
+c special sat "320"
+p cnf 5 3
+-2 -3 -4 -5 0
+1 2 3 0
+-1 2 -3 4 0
+c special sat "321"
+p cnf 5 2
+1 -2 4 0
+1 2 -3 4 5 0
+c special sat "322"
+p cnf 5 3
+-1 2 -4 0
+-2 -3 -4 5 0
+-1 2 -3 0
+c special sat "323"
+p cnf 4 3
+1 2 -3 0
+-1 2 4 0
+-1 2 3 4 0
+c special sat "324"
+p cnf 5 3
+-2 3 0
+3 -4 0
+2 -3 4 -5 0
+c special sat "325"
+p cnf 5 3
+-1 2 -3 4 -5 0
+1 2 -4 0
+3 4 0
+c special sat "326"
+p cnf 5 3
+1 0
+-1 -2 3 -4 0
+-1 2 -3 4 5 0
+c special sat "327"
+p cnf 4 3
+-1 -2 0
+-1 -2 3 -4 0
+-2 3 -4 0
+c special sat "328"
+p cnf 5 3
+-2 -3 0
+2 4 0
+-1 2 3 4 -5 0
+c special sat "329"
+p cnf 4 3
+1 -2 -3 0
+1 2 3 -4 0
+2 3 4 0
+c special sat "330"
+p cnf 5 2
+1 2 5 0
+1 -3 4 0
+c special sat "331"
+p cnf 4 2
+1 -2 4 0
+1 2 4 0
+c special sat "332"
+p cnf 5 3
+1 3 -4 5 0
+-1 -2 -3 -4 0
+-1 2 -3 -4 0
+c special sat "333"
+p cnf 5 3
+1 2 3 4 5 0
+3 4 5 0
+1 -2 3 -4 -5 0
+c special sat "334"
+p cnf 4 3
+1 2 -3 0
+-1 -2 -4 0
+1 -3 4 0
+c special sat "335"
+p cnf 5 3
+1 -2 4 -5 0
+-1 -2 4 0
+-2 3 4 0
+c special sat "336"
+p cnf 5 2
+1 2 -4 5 0
+-1 2 -3 0
+c special sat "337"
+p cnf 5 3
+2 0
+1 2 -3 -4 5 0
+1 -2 4 0
+c special sat "338"
+p cnf 5 3
+-1 2 3 -4 5 0
+-1 2 3 4 0
+1 2 3 4 0
+c special sat "339"
+p cnf 5 3
+1 2 -4 5 0
+-2 3 4 -5 0
+1 -2 3 -4 0
+c special sat "340"
+p cnf 5 2
+-1 -2 3 -4 0
+1 2 -3 -4 -5 0
+c special sat "341"
+p cnf 5 3
+-1 -3 -4 5 0
+-1 -2 3 4 0
+-1 2 -3 -4 5 0
+c special sat "342"
+p cnf 4 2
+-1 -2 3 -4 0
+1 -2 0
+c special sat "343"
+p cnf 5 2
+1 2 3 0
+-1 -2 -3 4 -5 0
+c special sat "344"
+p cnf 5 3
+-1 2 3 -4 5 0
+1 2 3 4 -5 0
+-1 2 3 5 0
+c special sat "345"
+p cnf 5 2
+3 0
+-1 2 -3 4 5 0
+c special sat "346"
+p cnf 4 2
+-1 2 3 0
+1 2 -4 0
+c special sat "347"
+p cnf 5 2
+-1 2 -4 -5 0
+1 -3 -4 5 0
+c special sat "348"
+p cnf 5 3
+1 -2 4 -5 0
+-1 3 -4 -5 0
+1 2 -3 -4 0
+c special sat "349"
+p cnf 5 3
+-1 2 -3 4 0
+-1 -2 4 -5 0
+1 3 4 0
+c special sat "350"
+p cnf 5 2
+-1 2 4 0
+2 3 -4 -5 0
+c special sat "351"
+p cnf 4 3
+1 2 3 -4 0
+-1 4 0
+-1 2 3 0
+c special sat "352"
+p cnf 5 3
+2 -3 4 0
+2 3 4 -5 0
+2 -3 -4 5 0
+c special sat "353"
+p cnf 5 2
+1 -2 -3 0
+1 -2 -4 -5 0
+c special sat "354"
+p cnf 5 3
+1 -2 -3 -4 0
+-1 2 -4 5 0
+1 -3 -4 0
+c special sat "355"
+p cnf 5 2
+1 2 3 4 0
+1 2 3 -4 5 0
+c special sat "356"
+p cnf 5 2
+1 2 3 4 5 0
+1 4 0
+c special sat "357"
+p cnf 5 3
+1 -2 3 -4 0
+-1 2 -3 4 -5 0
+-1 2 4 0
+c special sat "358"
+p cnf 5 2
+-1 -3 -4 -5 0
+-1 -2 -3 4 5 0
+c special sat "359"
+p cnf 4 2
+-1 -3 -4 0
+-1 -2 -3 -4 0
+c special sat "360"
+p cnf 5 3
+1 -3 -4 -5 0
+-1 2 -3 -5 0
+2 3 4 0
+c special sat "361"
+p cnf 5 3
+2 -3 4 0
+1 2 3 4 -5 0
+-1 2 -3 -4 0
+c special sat "362"
+p cnf 5 3
+-1 2 3 -4 5 0
+-2 -3 4 0
+1 2 -3 -4 0
+c special sat "363"
+p cnf 5 3
+1 -2 -4 -5 0
+1 -2 3 4 0
+1 4 0
+c special sat "364"
+p cnf 4 3
+1 -3 -4 0
+1 -3 -4 0
+1 -2 -3 4 0
+c special sat "365"
+p cnf 5 3
+-1 -2 4 0
+-1 -2 -3 0
+1 -2 3 -4 5 0
+c special sat "366"
+p cnf 5 2
+1 -2 -3 -4 5 0
+-3 -4 0
+c special sat "367"
+p cnf 5 3
+1 2 3 -4 0
+-2 3 -5 0
+-2 -3 -4 0
+c special sat "368"
+p cnf 5 2
+3 -4 0
+1 2 -3 -4 5 0
+c special sat "369"
+p cnf 5 3
+1 2 -3 -4 5 0
+1 3 -4 5 0
+-1 -2 3 -4 -5 0
+c special sat "370"
+p cnf 5 2
+4 5 0
+1 -2 4 0
+c special sat "371"
+p cnf 5 2
+1 2 5 0
+-1 2 -4 5 0
+c special sat "372"
+p cnf 4 3
+-1 -2 -3 4 0
+2 -3 4 0
+-3 -4 0
+c special sat "373"
+p cnf 5 2
+-2 4 0
+1 -2 3 4 -5 0
+c special sat "374"
+p cnf 5 3
+1 -4 -5 0
+-2 -3 4 5 0
+1 -4 5 0
+c special sat "375"
+p cnf 4 2
+-1 2 -3 -4 0
+-1 -4 0
+c special sat "376"
+p cnf 5 3
+-1 -2 3 0
+-1 -2 -3 4 -5 0
+1 2 -3 -4 0
+c special sat "377"
+p cnf 4 2
+-2 -3 -4 0
+1 -2 3 4 0
+c special sat "378"
+p cnf 5 2
+2 -3 -5 0
+-1 -2 -3 -5 0
+c special sat "379"
+p cnf 5 2
+-1 -2 3 4 0
+1 2 -3 4 -5 0
+c special sat "380"
+p cnf 5 2
+-1 2 -3 -5 0
+-3 -4 0
+c special sat "381"
+p cnf 5 2
+4 0
+-1 2 3 5 0
+c special sat "382"
+p cnf 4 2
+1 2 3 4 0
+-1 -2 3 4 0
+c special sat "383"
+p cnf 5 2
+1 -2 3 -4 -5 0
+1 -3 4 0
+c special sat "384"
+p cnf 5 3
+2 -3 -4 0
+-1 -4 -5 0
+2 3 0
+c special sat "385"
+p cnf 5 2
+-1 2 -3 5 0
+1 -2 4 0
+c special sat "386"
+p cnf 5 3
+-1 -2 3 5 0
+1 3 4 0
+1 -2 -3 -4 0
+c special sat "387"
+p cnf 4 2
+-1 2 -3 0
+1 2 -3 -4 0
+c special sat "388"
+p cnf 5 3
+1 2 -3 0
+-1 2 3 -4 -5 0
+1 3 -4 0
+c special sat "389"
+p cnf 5 3
+-1 2 -3 -5 0
+1 -2 3 -5 0
+1 2 -3 -4 5 0
+c special sat "390"
+p cnf 5 3
+1 -2 3 4 -5 0
+1 -2 -3 -4 5 0
+-1 2 -3 4 5 0
+c special sat "391"
+p cnf 5 2
+4 0
+1 2 -3 -4 5 0
+c special sat "392"
+p cnf 4 2
+1 -2 3 -4 0
+1 -3 4 0
+c special sat "393"
+p cnf 4 2
+2 -3 -4 0
+1 -2 3 4 0
+c special sat "394"
+p cnf 5 3
+-1 -3 4 0
+1 -2 -3 -4 0
+-1 -3 -5 0
+c special sat "395"
+p cnf 5 2
+1 3 4 0
+1 2 3 -4 -5 0
+c special sat "396"
+p cnf 5 3
+-1 2 -3 0
+1 -2 -3 5 0
+1 -2 -3 0
+c special sat "397"
+p cnf 4 2
+1 -2 -3 -4 0
+-1 -2 -3 0
+c special sat "398"
+p cnf 5 2
+-1 -2 3 -4 5 0
+-3 -4 0
+c special sat "399"
+p cnf 5 3
+1 3 -4 5 0
+-1 2 3 4 0
+1 4 -5 0
+c special sat "400"
+p cnf 5 3
+1 2 -3 4 0
+-1 2 -3 5 0
+1 -2 3 5 0
+c special sat "401"
+p cnf 4 2
+-1 2 3 -4 0
+-2 3 -4 0
+c special sat "402"
+p cnf 4 3
+-1 0
+1 2 -3 -4 0
+1 2 3 4 0
+c special sat "403"
+p cnf 5 3
+1 -2 3 4 0
+2 -4 0
+1 2 3 -5 0
+c special sat "404"
+p cnf 5 3
+-1 -2 -3 4 0
+-1 -2 -3 -5 0
+-1 -2 3 -4 -5 0
+c special sat "405"
+p cnf 5 2
+3 4 5 0
+1 2 3 4 0
+c special sat "406"
+p cnf 5 3
+-1 5 0
+-2 -4 0
+-1 2 3 -4 0
+c special sat "407"
+p cnf 5 3
+-1 -2 -3 -4 -5 0
+1 -2 -4 -5 0
+1 -2 -3 -4 5 0
+c special sat "408"
+p cnf 4 2
+-2 3 -4 0
+-2 3 4 0
+c special sat "409"
+p cnf 5 3
+1 2 -3 -5 0
+1 2 -3 4 0
+-1 -4 0
+c special sat "410"
+p cnf 4 2
+1 -4 0
+1 -2 4 0
+c special sat "411"
+p cnf 5 3
+-1 2 4 0
+-1 -2 4 0
+1 2 3 4 -5 0
+c special sat "412"
+p cnf 5 3
+2 3 4 -5 0
+1 2 3 -4 0
+-1 -2 3 -4 5 0
+c special sat "413"
+p cnf 5 3
+1 -4 0
+-2 3 -5 0
+1 -3 4 0
+c special sat "414"
+p cnf 4 3
+1 -2 3 4 0
+1 -2 -4 0
+-1 2 -3 4 0
+c special sat "415"
+p cnf 5 2
+-1 -3 -4 -5 0
+1 -2 3 -4 0
+c special sat "416"
+p cnf 4 2
+-1 2 -3 -4 0
+-1 -2 0
+c special sat "417"
+p cnf 5 2
+-1 2 -3 4 -5 0
+-1 2 -3 -4 0
+c special sat "418"
+p cnf 5 3
+-1 -2 -3 0
+-1 -2 4 -5 0
+-1 -2 -4 0
+c special sat "419"
+p cnf 5 3
+2 3 -4 -5 0
+2 3 4 5 0
+-2 -3 -4 5 0
+c special sat "420"
+p cnf 5 2
+1 2 -3 -4 0
+1 -2 3 4 -5 0
+c special sat "421"
+p cnf 5 2
+3 0
+-2 -3 -5 0
+c special sat "422"
+p cnf 5 2
+-2 3 -4 5 0
+1 2 -3 5 0
+c special sat "423"
+p cnf 4 3
+-4 0
+-1 2 -3 4 0
+-1 -2 -3 -4 0
+c special sat "424"
+p cnf 4 2
+1 -2 -3 4 0
+1 2 3 4 0
+c special sat "425"
+p cnf 5 2
+1 2 3 -4 -5 0
+-1 2 3 -4 -5 0
+c special sat "426"
+p cnf 5 2
+1 -2 3 -4 5 0
+2 -3 -4 5 0
+c special sat "427"
+p cnf 4 3
+-1 -2 3 4 0
+-1 -3 4 0
+-1 2 -3 -4 0
+c special sat "428"
+p cnf 5 2
+1 4 5 0
+2 3 4 -5 0
+c special sat "429"
+p cnf 5 3
+-1 -2 -3 4 -5 0
+1 2 -3 4 -5 0
+-1 2 -3 -4 0
+c special sat "430"
+p cnf 5 3
+1 -2 -4 0
+-1 -2 3 -4 0
+-1 2 -3 -4 -5 0
+c special sat "431"
+p cnf 5 2
+-1 -2 3 0
+-2 -4 -5 0
+c special sat "432"
+p cnf 5 2
+-1 2 3 4 0
+-1 2 -3 -4 -5 0
+c special sat "433"
+p cnf 4 2
+1 2 3 -4 0
+-1 3 4 0
+c special sat "434"
+p cnf 5 2
+-1 2 -3 4 0
+1 2 4 -5 0
+c special sat "435"
+p cnf 5 2
+-2 -3 0
+1 -2 -3 -4 -5 0
+c special sat "436"
+p cnf 5 2
+1 -2 3 0
+1 -2 -3 4 5 0
+c special sat "437"
+p cnf 4 2
+-1 -2 -3 -4 0
+-1 -2 3 4 0
+c special sat "438"
+p cnf 5 2
+-1 -2 3 -4 5 0
+1 2 -3 -4 0
+c special sat "439"
+p cnf 5 3
+-1 3 0
+1 -2 3 4 5 0
+-1 3 0
+c special sat "440"
+p cnf 5 2
+-1 -2 -3 0
+-2 3 -4 5 0
+c special sat "441"
+p cnf 5 2
+1 2 3 -4 5 0
+1 -3 -4 0
+c special sat "442"
+p cnf 4 3
+-1 2 3 4 0
+-1 -2 -3 4 0
+-1 -2 -3 4 0
+c special sat "443"
+p cnf 5 3
+-1 -2 -3 4 -5 0
+1 4 0
+2 -3 -4 5 0
+c special sat "444"
+p cnf 5 3
+1 -2 -3 4 0
+1 2 -4 -5 0
+-2 -3 4 0
+c special sat "445"
+p cnf 5 3
+1 -2 -3 -4 -5 0
+1 3 -4 0
+1 -3 4 0
+c special sat "446"
+p cnf 5 3
+1 -2 -3 4 -5 0
+-1 2 3 4 5 0
+-1 2 3 4 5 0
+c special sat "447"
+p cnf 5 2
+1 -2 -3 4 -5 0
+-2 4 5 0
+c special sat "448"
+p cnf 4 3
+-1 2 4 0
+-1 2 3 -4 0
+-1 3 -4 0
+c special sat "449"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+-1 2 -3 4 0
+1 3 4 0
+c special sat "450"
+p cnf 5 3
+2 -3 -4 5 0
+1 3 -4 0
+1 -2 -3 -4 -5 0
+c special sat "451"
+p cnf 4 3
+1 -2 3 -4 0
+-3 4 0
+1 2 3 -4 0
+c special sat "452"
+p cnf 5 3
+1 4 0
+1 -2 3 4 5 0
+-1 2 -4 0
+c special sat "453"
+p cnf 4 2
+1 2 -3 0
+1 2 3 4 0
+c special sat "454"
+p cnf 4 2
+-1 -2 0
+-1 2 3 4 0
+c special sat "455"
+p cnf 5 3
+1 3 4 5 0
+-1 -2 3 4 0
+-1 2 3 4 0
+c special sat "456"
+p cnf 5 2
+1 2 -3 -4 0
+1 -2 -4 5 0
+c special sat "457"
+p cnf 4 3
+-1 -2 -3 0
+1 -2 3 0
+1 2 4 0
+c special sat "458"
+p cnf 5 3
+-1 -2 -3 0
+1 -2 3 4 5 0
+2 -3 4 0
+c special sat "459"
+p cnf 4 3
+1 2 -3 0
+1 4 0
+1 2 3 4 0
+c special sat "460"
+p cnf 5 3
+2 -3 4 5 0
+-1 -2 -3 4 0
+1 2 -4 -5 0
+c special sat "461"
+p cnf 5 2
+1 2 3 4 5 0
+2 3 4 5 0
+c special sat "462"
+p cnf 5 2
+-1 -2 3 -4 0
+1 2 3 5 0
+c special sat "463"
+p cnf 5 2
+-1 2 4 -5 0
+-1 -4 0
+c special sat "464"
+p cnf 4 2
+2 3 4 0
+-2 3 -4 0
+c special sat "465"
+p cnf 3 2
+1 -2 -3 0
+-2 3 0
+c special sat "466"
+p cnf 5 2
+-1 2 -3 4 5 0
+1 -2 4 0
+c special sat "467"
+p cnf 5 3
+1 -2 -4 -5 0
+1 2 -3 -4 -5 0
+1 3 -5 0
+c special sat "468"
+p cnf 5 3
+-2 3 0
+2 -3 4 -5 0
+-2 4 5 0
+c special sat "469"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+-2 -3 -4 5 0
+1 2 -3 4 -5 0
+c special sat "470"
+p cnf 4 2
+1 3 -4 0
+-1 -2 -3 4 0
+c special sat "471"
+p cnf 4 2
+-1 -3 -4 0
+-2 3 4 0
+c special sat "472"
+p cnf 5 3
+1 2 -3 -4 -5 0
+-1 2 -3 -4 5 0
+-3 4 0
+c special sat "473"
+p cnf 5 3
+1 2 5 0
+-1 2 4 -5 0
+-1 2 -3 4 0
+c special sat "474"
+p cnf 5 2
+1 2 -4 0
+2 4 5 0
+c special sat "475"
+p cnf 5 2
+2 -3 -4 0
+-1 -2 -3 4 5 0
+c special sat "476"
+p cnf 5 2
+2 3 -4 5 0
+1 2 -3 4 5 0
+c special sat "477"
+p cnf 4 2
+-1 -3 4 0
+1 -2 3 4 0
+c special sat "478"
+p cnf 4 2
+-1 -2 3 0
+-2 -4 0
+c special sat "479"
+p cnf 5 2
+-1 -2 3 -4 5 0
+1 3 4 0
+c special sat "480"
+p cnf 5 2
+1 3 4 5 0
+-3 -4 0
+c special sat "481"
+p cnf 5 3
+1 2 -3 -4 0
+1 2 3 -5 0
+1 -2 -3 -4 -5 0
+c special sat "482"
+p cnf 5 3
+-1 3 -4 0
+-1 -2 -3 -4 0
+1 -2 -3 -4 -5 0
+c special sat "483"
+p cnf 4 2
+-1 -2 3 -4 0
+1 2 -4 0
+c special sat "484"
+p cnf 5 2
+1 -2 3 4 -5 0
+-1 2 3 -4 0
+c special sat "485"
+p cnf 5 2
+1 -2 -3 -4 5 0
+2 3 4 0
+c special sat "486"
+p cnf 5 2
+3 4 0
+-1 -2 3 4 -5 0
+c special sat "487"
+p cnf 5 3
+1 -2 3 4 0
+-1 -2 -3 4 0
+-1 -2 -4 -5 0
+c special sat "488"
+p cnf 5 2
+2 3 4 -5 0
+-2 -5 0
+c special sat "489"
+p cnf 4 2
+2 3 -4 0
+-2 4 0
+c special sat "490"
+p cnf 5 3
+1 2 4 -5 0
+-1 -2 -3 -4 5 0
+1 3 4 0
+c special sat "491"
+p cnf 5 3
+-2 3 4 0
+-1 2 -3 -4 -5 0
+1 -2 -3 -4 0
+c special sat "492"
+p cnf 5 3
+2 3 -4 5 0
+-1 -2 -4 -5 0
+-2 3 -4 0
+c special sat "493"
+p cnf 5 2
+-1 2 5 0
+-1 -2 3 -4 0
+c special sat "494"
+p cnf 5 2
+-2 -3 -4 5 0
+-3 -4 0
+c special sat "495"
+p cnf 4 2
+1 4 0
+1 -3 4 0
+c special sat "496"
+p cnf 5 3
+-2 3 5 0
+1 2 -3 4 0
+-1 2 3 -4 -5 0
+c special sat "497"
+p cnf 5 3
+1 -2 -3 4 0
+-1 2 3 -4 5 0
+-1 2 -3 4 0
+c special sat "498"
+p cnf 5 2
+1 -2 3 4 -5 0
+3 4 0
+c special sat "499"
+p cnf 5 3
+-1 -2 3 0
+-1 2 3 -5 0
+-1 -4 5 0
+c special sat "500"
+p cnf 5 3
+1 -3 -4 5 0
+2 -3 4 0
+1 2 4 5 0
+c special sat "501"
+p cnf 5 3
+1 2 -4 0
+-1 2 3 -4 5 0
+4 0
+c special sat "502"
+p cnf 5 2
+-3 4 -5 0
+-1 -2 -4 -5 0
+c special sat "503"
+p cnf 4 2
+1 -2 -3 4 0
+-1 2 3 -4 0
+c special sat "504"
+p cnf 5 3
+1 2 -3 4 0
+1 2 -3 5 0
+1 -2 -3 -4 0
+c special sat "505"
+p cnf 4 3
+-1 2 3 4 0
+1 2 3 4 0
+1 -3 -4 0
+c special sat "506"
+p cnf 5 3
+1 2 3 4 5 0
+-1 -2 -4 5 0
+-1 2 -4 -5 0
+c special sat "507"
+p cnf 5 3
+-1 2 -3 -4 0
+2 5 0
+-1 2 -3 -4 -5 0
+c special sat "508"
+p cnf 5 3
+1 -2 3 0
+-1 -2 3 4 0
+1 -5 0
+c special sat "509"
+p cnf 5 2
+1 2 4 5 0
+-2 0
+c special sat "510"
+p cnf 5 3
+1 -2 4 5 0
+-2 3 4 0
+-1 -3 0
+c special sat "511"
+p cnf 4 2
+1 2 3 4 0
+-1 2 -4 0
+c special sat "512"
+p cnf 5 2
+1 -2 -3 4 0
+1 -3 4 -5 0
+c special sat "513"
+p cnf 5 2
+1 2 -3 -4 5 0
+-1 2 3 0
+c special sat "514"
+p cnf 5 3
+-1 3 4 -5 0
+-2 3 4 -5 0
+-2 3 -5 0
+c special sat "515"
+p cnf 5 2
+-1 3 4 5 0
+-1 0
+c special sat "516"
+p cnf 4 2
+-1 2 -3 4 0
+1 -2 3 4 0
+c special sat "517"
+p cnf 5 3
+1 2 3 4 0
+-1 2 3 -5 0
+1 -2 -3 4 0
+c special sat "518"
+p cnf 4 2
+-3 -4 0
+-2 0
+c special sat "519"
+p cnf 5 2
+1 2 3 5 0
+1 -2 -3 -4 -5 0
+c special sat "520"
+p cnf 5 3
+1 -2 3 -4 -5 0
+-1 -3 4 0
+-2 3 -4 0
+c special sat "521"
+p cnf 4 2
+-1 -2 3 4 0
+-1 2 -4 0
+c special sat "522"
+p cnf 3 2
+1 3 0
+1 -3 0
+c special sat "523"
+p cnf 5 2
+1 -2 4 5 0
+1 -2 3 4 -5 0
+c special sat "524"
+p cnf 5 2
+2 -3 0
+-2 -3 4 5 0
+c special sat "525"
+p cnf 5 3
+-1 2 -3 4 0
+2 3 -4 0
+-1 2 -3 4 -5 0
+c special sat "526"
+p cnf 5 3
+2 3 -4 0
+1 2 3 4 5 0
+-1 -4 0
+c special sat "527"
+p cnf 5 2
+1 3 -4 0
+-1 -2 3 -4 5 0
+c special sat "528"
+p cnf 5 2
+-3 4 5 0
+-1 2 -3 4 -5 0
+c special sat "529"
+p cnf 5 2
+-1 -2 3 5 0
+1 2 -3 -4 5 0
+c special sat "530"
+p cnf 5 3
+1 2 3 4 5 0
+-1 -2 -3 -4 -5 0
+-1 -2 -3 0
+c special sat "531"
+p cnf 5 3
+-1 2 3 4 -5 0
+1 2 4 0
+-2 -4 0
+c special sat "532"
+p cnf 5 3
+-1 2 3 5 0
+1 2 -3 -5 0
+1 -3 -4 5 0
+c special sat "533"
+p cnf 5 2
+-1 -2 -4 5 0
+1 -2 3 4 5 0
+c special sat "534"
+p cnf 5 2
+1 2 -3 4 5 0
+-1 -2 3 -4 5 0
+c special sat "535"
+p cnf 4 2
+2 -4 0
+-1 -2 3 4 0
+c special sat "536"
+p cnf 5 3
+-2 -3 4 0
+-2 3 -4 -5 0
+1 2 -4 -5 0
+c special sat "537"
+p cnf 5 3
+1 2 -3 4 -5 0
+1 2 4 0
+1 -2 3 4 5 0
+c special sat "538"
+p cnf 5 3
+-1 -2 -3 4 0
+-1 -3 4 5 0
+1 -2 -3 4 0
+c special sat "539"
+p cnf 5 3
+-1 -2 -3 4 0
+1 2 -5 0
+1 2 -3 -4 -5 0
+c special sat "540"
+p cnf 5 3
+3 4 -5 0
+1 -2 3 -4 -5 0
+-1 -2 -3 0
+c special sat "541"
+p cnf 5 3
+1 5 0
+-1 2 -3 -4 0
+-1 2 3 -5 0
+c special sat "542"
+p cnf 5 3
+-2 -3 4 0
+2 -4 5 0
+-1 -2 3 4 0
+c special sat "543"
+p cnf 5 3
+1 2 3 4 0
+-1 3 -4 5 0
+-1 2 -3 4 0
+c special sat "544"
+p cnf 4 2
+2 4 0
+-1 -2 3 4 0
+c special sat "545"
+p cnf 5 2
+1 -2 -3 4 0
+1 2 3 4 -5 0
+c special sat "546"
+p cnf 4 2
+-1 2 3 -4 0
+-2 -3 -4 0
+c special sat "547"
+p cnf 5 3
+2 -3 -4 -5 0
+2 -5 0
+-2 -3 -4 -5 0
+c special sat "548"
+p cnf 5 3
+1 -2 -3 4 0
+1 2 -3 0
+-1 -3 4 -5 0
+c special sat "549"
+p cnf 4 2
+1 2 -4 0
+1 2 3 4 0
+c special sat "550"
+p cnf 5 2
+1 -2 3 4 0
+1 -2 4 5 0
+c special sat "551"
+p cnf 5 2
+-3 -4 -5 0
+1 -2 -3 -4 0
+c special sat "552"
+p cnf 5 3
+1 -2 -3 4 0
+1 -2 -3 4 5 0
+-1 -2 3 4 0
+c special sat "553"
+p cnf 5 3
+1 -3 4 5 0
+-1 2 3 4 5 0
+1 2 -4 5 0
+c special sat "554"
+p cnf 4 3
+2 -3 0
+-2 4 0
+1 -2 -3 4 0
+c special sat "555"
+p cnf 5 2
+-1 -2 -3 4 -5 0
+-1 2 -3 4 0
+c special sat "556"
+p cnf 5 3
+-1 -3 4 0
+1 3 4 5 0
+-1 2 -3 4 0
+c special sat "557"
+p cnf 5 2
+-1 2 -4 5 0
+1 -2 -3 4 0
+c special sat "558"
+p cnf 5 3
+1 2 3 4 5 0
+1 2 -4 0
+1 0
+c special sat "559"
+p cnf 5 2
+-2 -3 4 0
+1 -3 -5 0
+c special sat "560"
+p cnf 5 2
+1 -2 3 -4 -5 0
+-1 -2 4 -5 0
+c special sat "561"
+p cnf 5 2
+-1 -3 -4 0
+1 -2 3 4 5 0
+c special sat "562"
+p cnf 3 2
+-1 3 0
+-1 3 0
+c special sat "563"
+p cnf 4 3
+-1 -2 -3 -4 0
+1 4 0
+-1 -2 -3 4 0
+c special sat "564"
+p cnf 5 3
+-2 3 -5 0
+-2 -4 0
+1 2 -4 -5 0
+c special sat "565"
+p cnf 5 3
+1 2 3 -4 0
+1 2 -3 4 -5 0
+-3 -4 -5 0
+c special sat "566"
+p cnf 5 2
+-1 -2 4 -5 0
+1 2 -3 4 0
+c special sat "567"
+p cnf 4 3
+1 2 -3 4 0
+3 4 0
+-3 4 0
+c special sat "568"
+p cnf 5 3
+1 0
+2 -3 -4 -5 0
+1 -2 4 5 0
+c special sat "569"
+p cnf 5 2
+-1 2 -3 4 0
+2 -3 -4 5 0
+c special sat "570"
+p cnf 5 3
+1 2 -3 5 0
+2 3 4 0
+1 -2 3 4 5 0
+c special sat "571"
+p cnf 5 2
+1 -2 -3 -4 -5 0
+2 3 0
+c special sat "572"
+p cnf 4 2
+-1 -2 -3 -4 0
+-1 -4 0
+c special sat "573"
+p cnf 4 2
+1 -2 3 4 0
+2 3 -4 0
+c special sat "574"
+p cnf 4 3
+1 -3 -4 0
+1 2 3 4 0
+1 3 -4 0
+c special sat "575"
+p cnf 4 2
+-2 -3 -4 0
+1 2 4 0
+c special sat "576"
+p cnf 5 3
+-1 2 -3 4 5 0
+-2 3 4 0
+-1 -2 4 -5 0
+c special sat "577"
+p cnf 5 3
+2 -3 4 5 0
+1 2 -3 4 0
+1 -2 -3 0
+c special sat "578"
+p cnf 5 3
+-1 2 4 5 0
+1 2 -3 -4 -5 0
+-2 -3 4 -5 0
+c special sat "579"
+p cnf 5 3
+1 -2 3 0
+-1 2 4 0
+1 2 -3 4 -5 0
+c special sat "580"
+p cnf 4 2
+-1 -2 3 4 0
+-1 3 4 0
+c special sat "581"
+p cnf 4 2
+-1 -3 -4 0
+-1 -2 3 -4 0
+c special sat "582"
+p cnf 5 2
+2 4 5 0
+1 -3 4 0
+c special sat "583"
+p cnf 5 2
+-1 2 3 4 0
+-1 4 5 0
+c special sat "584"
+p cnf 4 3
+1 -2 -4 0
+-1 -2 -3 4 0
+1 3 -4 0
+c special sat "585"
+p cnf 5 2
+-1 2 -3 5 0
+1 2 -3 -4 -5 0
+c special sat "586"
+p cnf 5 2
+-1 -2 3 -4 -5 0
+2 -3 -5 0
+c special sat "587"
+p cnf 5 2
+1 -2 -3 5 0
+1 -3 0
+c special sat "588"
+p cnf 5 3
+-3 5 0
+-1 -2 -3 -4 5 0
+-1 2 4 5 0
+c special sat "589"
+p cnf 5 3
+-1 -2 3 4 5 0
+-1 -2 -3 -4 0
+-1 -2 3 -4 0
+c special sat "590"
+p cnf 5 2
+-1 -3 4 -5 0
+-2 3 4 5 0
+c special sat "591"
+p cnf 4 3
+1 -2 3 -4 0
+-1 -2 -3 0
+-1 2 3 -4 0
+c special sat "592"
+p cnf 5 3
+-2 -3 -4 -5 0
+2 -3 4 5 0
+-1 2 3 -4 0
+c special sat "593"
+p cnf 5 2
+-1 -2 5 0
+1 2 3 -4 5 0
+c special sat "594"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+-1 -2 -3 -4 0
+-1 -2 -3 4 0
+c special sat "595"
+p cnf 5 2
+1 3 4 5 0
+-1 -2 4 0
+c special sat "596"
+p cnf 4 2
+-1 -2 -3 4 0
+1 2 -3 0
+c special sat "597"
+p cnf 5 2
+-1 -4 -5 0
+-1 -2 -3 4 0
+c special sat "598"
+p cnf 5 2
+3 5 0
+-1 -3 5 0
+c special sat "599"
+p cnf 5 3
+1 -2 -3 4 -5 0
+1 2 3 -4 0
+1 2 -4 0
+c special sat "600"
+p cnf 4 2
+1 2 3 0
+-1 -2 -3 -4 0
+c special sat "601"
+p cnf 5 3
+-1 2 4 -5 0
+-1 2 -4 0
+2 -3 4 -5 0
+c special sat "602"
+p cnf 5 3
+1 2 4 0
+1 3 -4 -5 0
+-1 -3 -5 0
+c special sat "603"
+p cnf 5 2
+1 -2 3 4 5 0
+2 -4 0
+c special sat "604"
+p cnf 3 2
+-1 -2 3 0
+1 2 -3 0
+c special sat "605"
+p cnf 4 2
+-1 -3 4 0
+1 -2 -3 4 0
+c special sat "606"
+p cnf 4 3
+-1 2 3 4 0
+-1 2 3 4 0
+2 3 -4 0
+c special sat "607"
+p cnf 5 3
+-1 3 4 0
+2 -3 4 5 0
+1 -2 4 -5 0
+c special sat "608"
+p cnf 4 2
+1 2 -3 4 0
+1 2 -3 4 0
+c special sat "609"
+p cnf 5 3
+-1 2 3 -4 -5 0
+-1 -2 -4 -5 0
+1 2 4 0
+c special sat "610"
+p cnf 4 2
+-1 2 -3 4 0
+-1 2 -4 0
+c special sat "611"
+p cnf 4 2
+1 -2 -3 4 0
+1 2 3 0
+c special sat "612"
+p cnf 4 3
+1 -4 0
+2 3 4 0
+1 2 -4 0
+c special sat "613"
+p cnf 5 3
+1 -2 -3 -4 -5 0
+-1 3 0
+-1 2 -3 5 0
+c special sat "614"
+p cnf 5 2
+-1 2 -4 0
+1 -2 3 4 5 0
+c special sat "615"
+p cnf 5 2
+1 -2 -3 -5 0
+1 -2 -3 0
+c special sat "616"
+p cnf 5 2
+1 -2 3 0
+-1 3 -4 5 0
+c special sat "617"
+p cnf 5 2
+-1 -2 -3 4 -5 0
+-1 -2 3 4 0
+c special sat "618"
+p cnf 5 2
+-1 -3 4 0
+-1 -2 -3 -4 5 0
+c special sat "619"
+p cnf 4 3
+-1 -2 -3 0
+2 3 -4 0
+2 3 4 0
+c special sat "620"
+p cnf 5 2
+-2 -3 4 -5 0
+1 2 3 4 0
+c special sat "621"
+p cnf 4 3
+-1 -2 -3 -4 0
+-2 -4 0
+-1 -2 -3 -4 0
+c special sat "622"
+p cnf 4 3
+1 2 -3 4 0
+1 2 -3 -4 0
+2 3 -4 0
+c special sat "623"
+p cnf 4 2
+1 -3 -4 0
+1 -2 -3 4 0
+c special sat "624"
+p cnf 5 2
+-1 -3 -5 0
+-1 -2 -3 0
+c special sat "625"
+p cnf 4 2
+-1 -2 3 4 0
+1 2 3 0
+c special sat "626"
+p cnf 5 3
+2 -3 4 0
+-2 4 -5 0
+-2 -3 5 0
+c special sat "627"
+p cnf 4 3
+1 -2 3 -4 0
+-1 2 -3 0
+1 2 -3 4 0
+c special sat "628"
+p cnf 4 2
+1 2 -3 4 0
+1 3 4 0
+c special sat "629"
+p cnf 4 2
+-2 4 0
+1 2 3 4 0
+c special sat "630"
+p cnf 5 2
+1 -2 3 5 0
+-1 2 4 -5 0
+c special sat "631"
+p cnf 4 3
+-1 2 3 4 0
+-1 -2 0
+1 -2 3 0
+c special sat "632"
+p cnf 4 2
+1 -2 -3 4 0
+-1 -2 3 -4 0
+c special sat "633"
+p cnf 5 2
+1 2 -3 -4 0
+2 -3 -4 5 0
+c special sat "634"
+p cnf 5 3
+1 -2 -3 4 -5 0
+2 0
+-1 2 3 -4 -5 0
+c special sat "635"
+p cnf 5 3
+-3 4 -5 0
+1 2 -3 -4 5 0
+1 3 4 -5 0
+c special sat "636"
+p cnf 5 2
+1 2 4 -5 0
+-2 -4 0
+c special sat "637"
+p cnf 4 3
+-1 2 -3 4 0
+-1 2 4 0
+-2 -3 4 0
+c special sat "638"
+p cnf 4 2
+-2 -3 4 0
+1 2 -3 4 0
+c special sat "639"
+p cnf 5 3
+-1 2 -4 0
+-2 -3 -4 0
+1 2 -3 5 0
+c special sat "640"
+p cnf 4 2
+-1 -3 0
+1 2 -4 0
+c special sat "641"
+p cnf 5 3
+1 -2 -3 4 5 0
+-1 -3 4 0
+1 2 -3 0
+c special sat "642"
+p cnf 5 2
+-2 3 4 5 0
+1 2 -4 0
+c special sat "643"
+p cnf 5 3
+-2 3 4 -5 0
+1 -3 4 0
+2 3 4 0
+c special sat "644"
+p cnf 5 2
+-1 -3 4 0
+-1 2 -3 -4 -5 0
+c special sat "645"
+p cnf 5 3
+2 -4 0
+-1 2 -4 -5 0
+-1 3 4 0
+c special sat "646"
+p cnf 5 3
+2 5 0
+-1 3 0
+-1 -2 -4 0
+c special sat "647"
+p cnf 5 2
+2 -3 -4 5 0
+1 -2 4 0
+c special sat "648"
+p cnf 5 3
+2 3 4 -5 0
+-1 4 -5 0
+-3 -4 0
+c special sat "649"
+p cnf 5 3
+-2 -3 -4 -5 0
+1 2 4 0
+1 -3 5 0
+c special sat "650"
+p cnf 4 3
+1 -2 -3 4 0
+-1 -2 4 0
+1 -4 0
+c special sat "651"
+p cnf 5 3
+-1 2 3 -4 0
+2 3 4 5 0
+1 -2 3 4 5 0
+c special sat "652"
+p cnf 5 2
+-1 -2 -3 5 0
+-2 -4 -5 0
+c special sat "653"
+p cnf 5 3
+-1 2 3 -4 5 0
+1 2 3 4 5 0
+-1 -4 -5 0
+c special sat "654"
+p cnf 5 2
+-1 -2 5 0
+1 4 0
+c special sat "655"
+p cnf 5 2
+1 -3 0
+1 -4 5 0
+c special sat "656"
+p cnf 5 3
+-1 -2 -3 5 0
+-1 -2 -3 0
+1 -2 -4 0
+c special sat "657"
+p cnf 5 3
+1 2 -3 4 0
+-1 -2 -3 -4 -5 0
+1 2 -3 0
+c special sat "658"
+p cnf 5 3
+1 3 4 -5 0
+1 2 -4 0
+-1 -3 4 0
+c special sat "659"
+p cnf 5 3
+1 -3 -4 5 0
+-1 -2 -3 -5 0
+-1 -2 4 -5 0
+c special sat "660"
+p cnf 5 2
+1 -2 -3 5 0
+1 3 -4 -5 0
+c special sat "661"
+p cnf 5 3
+1 -2 -3 4 0
+-1 -3 -5 0
+1 2 -3 4 -5 0
+c special sat "662"
+p cnf 5 2
+2 3 -4 5 0
+-1 -3 0
+c special sat "663"
+p cnf 5 3
+-1 -2 -3 0
+-2 -3 -4 -5 0
+1 -2 -3 4 -5 0
+c special sat "664"
+p cnf 4 3
+1 2 -3 -4 0
+-1 -4 0
+-1 3 0
+c special sat "665"
+p cnf 5 2
+1 2 -4 5 0
+-2 -3 0
+c special sat "666"
+p cnf 4 2
+-1 2 3 -4 0
+2 3 4 0
+c special sat "667"
+p cnf 5 2
+-1 2 3 4 5 0
+3 4 0
+c special sat "668"
+p cnf 4 3
+-1 2 3 -4 0
+1 2 -3 0
+-1 2 -3 0
+c special sat "669"
+p cnf 4 2
+-2 3 -4 0
+-2 -3 -4 0
+c special sat "670"
+p cnf 5 3
+1 0
+-1 -3 5 0
+1 -2 -3 4 0
+c special sat "671"
+p cnf 4 3
+-1 2 3 4 0
+1 3 -4 0
+1 -2 -3 -4 0
+c special sat "672"
+p cnf 5 2
+1 3 -4 -5 0
+2 3 4 -5 0
+c special sat "673"
+p cnf 4 3
+-1 -2 3 0
+2 3 4 0
+1 -2 -3 4 0
+c special sat "674"
+p cnf 5 2
+1 -2 3 -5 0
+-2 -3 0
+c special sat "675"
+p cnf 5 2
+1 -2 -4 -5 0
+1 2 -3 -4 0
+c special sat "676"
+p cnf 5 3
+-1 -2 -3 -4 0
+1 2 -3 4 0
+1 -2 -3 -4 -5 0
+c special sat "677"
+p cnf 4 2
+-1 -2 3 4 0
+1 4 0
+c special sat "678"
+p cnf 5 3
+2 -3 0
+1 2 0
+-1 -2 -3 -4 -5 0
+c special sat "679"
+p cnf 5 2
+1 2 -3 -4 0
+-1 2 -3 -4 -5 0
+c special sat "680"
+p cnf 5 3
+1 -4 0
+1 -2 3 4 5 0
+1 3 4 0
+c special sat "681"
+p cnf 5 2
+1 -2 3 0
+1 -2 3 4 -5 0
+c special sat "682"
+p cnf 4 2
+-1 2 3 -4 0
+1 2 -3 -4 0
+c special sat "683"
+p cnf 5 3
+1 2 3 4 0
+1 -2 -3 4 5 0
+-2 -3 4 0
+c special sat "684"
+p cnf 4 3
+1 2 4 0
+1 -2 -4 0
+1 2 -3 -4 0
+c special sat "685"
+p cnf 4 2
+-1 -2 4 0
+-2 4 0
+c special sat "686"
+p cnf 5 2
+-2 3 -4 0
+-1 -2 -3 -4 5 0
+c special sat "687"
+p cnf 5 3
+1 -2 3 -4 -5 0
+-1 2 3 -5 0
+-1 2 3 5 0
+c special sat "688"
+p cnf 5 2
+1 -2 -3 -4 -5 0
+-2 4 0
+c special sat "689"
+p cnf 3 2
+1 2 -3 0
+2 3 0
+c special sat "690"
+p cnf 5 2
+-2 -3 4 0
+-1 3 4 5 0
+c special sat "691"
+p cnf 5 2
+-1 4 0
+1 2 3 -4 5 0
+c special sat "692"
+p cnf 5 2
+-1 -2 3 4 -5 0
+1 2 3 4 0
+c special sat "693"
+p cnf 5 2
+-2 3 4 0
+-1 2 -4 5 0
+c special sat "694"
+p cnf 4 2
+-2 -4 0
+2 -3 4 0
+c special sat "695"
+p cnf 4 2
+-1 3 -4 0
+-1 2 -4 0
+c special sat "696"
+p cnf 5 3
+-1 -2 -4 5 0
+1 -3 4 0
+1 2 3 -4 5 0
+c special sat "697"
+p cnf 5 3
+-1 2 -3 -4 -5 0
+1 -2 3 -4 -5 0
+1 -2 -3 4 0
+c special sat "698"
+p cnf 5 3
+1 -2 3 4 0
+1 -2 3 -4 -5 0
+-1 2 -3 4 0
+c special sat "699"
+p cnf 5 3
+-1 -2 -4 -5 0
+1 -2 3 4 0
+-1 2 -3 -4 0
+c special sat "700"
+p cnf 4 2
+-1 -2 3 4 0
+-1 2 3 4 0
+c special sat "701"
+p cnf 5 3
+1 2 3 5 0
+1 -2 3 -4 0
+-1 -2 4 0
+c special sat "702"
+p cnf 4 2
+-1 2 3 4 0
+-1 -2 4 0
+c special sat "703"
+p cnf 5 2
+1 2 -3 -4 5 0
+1 2 3 -4 5 0
+c special sat "704"
+p cnf 5 3
+-1 -2 -3 -4 -5 0
+1 -3 0
+-1 2 3 -4 5 0
+c special sat "705"
+p cnf 5 3
+-1 3 -4 0
+-1 2 -3 -4 5 0
+1 2 3 4 5 0
+c special sat "706"
+p cnf 5 3
+1 4 -5 0
+1 2 4 0
+-1 3 4 -5 0
+c special sat "707"
+p cnf 4 2
+-1 -2 -3 4 0
+-1 2 -3 -4 0
+c special sat "708"
+p cnf 5 3
+-1 2 -3 -4 0
+-1 -3 4 5 0
+2 -4 0
+c special sat "709"
+p cnf 5 2
+-1 2 -3 5 0
+-1 -4 0
+c special sat "710"
+p cnf 5 3
+2 5 0
+1 -2 -3 4 0
+2 4 5 0
+c special sat "711"
+p cnf 5 2
+3 4 0
+-1 -2 -3 5 0
+c special sat "712"
+p cnf 5 3
+3 4 0
+1 2 -3 4 -5 0
+1 2 3 -4 5 0
+c special sat "713"
+p cnf 4 3
+1 -2 3 4 0
+1 -2 -3 -4 0
+1 -2 3 0
+c special sat "714"
+p cnf 5 2
+1 2 3 -4 -5 0
+1 -2 4 -5 0
+c special sat "715"
+p cnf 5 2
+-1 -2 0
+1 -2 -3 -4 -5 0
+c special sat "716"
+p cnf 5 3
+1 3 0
+-1 -2 3 -4 0
+1 -2 -4 -5 0
+c special sat "717"
+p cnf 5 2
+3 4 -5 0
+-1 -2 0
+c special sat "718"
+p cnf 4 2
+-1 -2 3 4 0
+1 2 -3 -4 0
+c special sat "719"
+p cnf 4 2
+-1 -2 3 4 0
+1 -2 -3 4 0
+c special sat "720"
+p cnf 5 2
+-1 2 -3 5 0
+-1 2 -3 -4 0
+c special sat "721"
+p cnf 5 3
+1 2 3 4 0
+1 2 -3 4 5 0
+-1 -3 0
+c special sat "722"
+p cnf 5 3
+1 2 4 0
+1 2 -3 -5 0
+1 -2 3 4 0
+c special sat "723"
+p cnf 4 2
+-1 3 0
+1 2 3 4 0
+c special sat "724"
+p cnf 5 2
+1 2 -3 -4 0
+-1 -2 3 4 -5 0
+c special sat "725"
+p cnf 4 2
+-1 2 -3 -4 0
+-1 -2 3 -4 0
+c special sat "726"
+p cnf 4 3
+1 -2 3 0
+1 -2 -3 4 0
+-2 3 -4 0
+c special sat "727"
+p cnf 4 3
+-1 3 -4 0
+-3 0
+-3 -4 0
+c special sat "728"
+p cnf 4 2
+-1 -3 -4 0
+1 2 -3 4 0
+c special sat "729"
+p cnf 4 3
+-1 -3 4 0
+-1 -2 -3 4 0
+-2 3 -4 0
+c special sat "730"
+p cnf 5 3
+-1 2 -3 4 5 0
+2 3 4 0
+1 2 3 -4 0
+c special sat "731"
+p cnf 5 3
+-1 3 4 0
+-1 -2 -3 4 5 0
+-1 -2 -4 5 0
+c special sat "732"
+p cnf 5 3
+-3 -4 5 0
+1 2 4 0
+-1 2 3 -4 0
+c special sat "733"
+p cnf 5 2
+2 3 4 0
+1 2 -3 4 -5 0
+c special sat "734"
+p cnf 5 2
+-1 -2 3 4 -5 0
+-1 -2 -3 4 -5 0
+c special sat "735"
+p cnf 4 2
+-1 -2 3 4 0
+1 -3 4 0
+c special sat "736"
+p cnf 4 2
+-1 2 3 4 0
+-1 2 3 4 0
+c special sat "737"
+p cnf 4 2
+-1 -2 -3 4 0
+1 -2 -4 0
+c special sat "738"
+p cnf 4 3
+2 4 0
+-1 2 3 4 0
+1 -2 -3 -4 0
+c special sat "739"
+p cnf 5 3
+1 -2 -4 0
+1 2 3 0
+1 -2 3 -4 5 0
+c special sat "740"
+p cnf 5 2
+1 -2 -3 5 0
+-1 -3 4 0
+c special sat "741"
+p cnf 4 3
+-1 -2 3 4 0
+1 2 -3 -4 0
+1 2 -3 4 0
+c special sat "742"
+p cnf 4 2
+-1 2 -3 0
+1 -3 -4 0
+c special sat "743"
+p cnf 4 3
+1 -2 3 -4 0
+-1 3 4 0
+-1 2 3 -4 0
+c special sat "744"
+p cnf 5 3
+-1 -2 -3 -4 0
+-1 2 3 4 0
+1 2 4 -5 0
+c special sat "745"
+p cnf 4 2
+1 -2 4 0
+1 -2 3 -4 0
+c special sat "746"
+p cnf 5 3
+1 2 3 -4 0
+-1 3 -4 0
+1 2 -4 5 0
+c special sat "747"
+p cnf 3 2
+1 2 0
+1 -2 3 0
+c special sat "748"
+p cnf 5 2
+-2 -3 4 5 0
+-2 3 -4 0
+c special sat "749"
+p cnf 5 3
+3 4 0
+1 -2 -3 4 -5 0
+1 -2 3 4 0
+c special sat "750"
+p cnf 5 3
+-1 2 -3 4 -5 0
+1 2 -3 4 0
+1 2 -3 -4 -5 0
+c special sat "751"
+p cnf 5 2
+-1 2 4 5 0
+1 -2 -3 4 0
+c special sat "752"
+p cnf 5 2
+1 -2 0
+1 -2 3 4 5 0
+c special sat "753"
+p cnf 5 3
+1 2 3 -4 -5 0
+-1 -2 3 5 0
+-1 -2 -3 4 5 0
+c special sat "754"
+p cnf 5 2
+1 2 -3 5 0
+-1 2 4 -5 0
+c special sat "755"
+p cnf 5 3
+1 2 3 -4 5 0
+-1 -2 3 -4 5 0
+1 2 4 0
+c special sat "756"
+p cnf 5 2
+-1 -2 -4 5 0
+1 2 -3 4 5 0
+c special sat "757"
+p cnf 5 3
+1 3 4 5 0
+2 -3 -4 -5 0
+-2 3 -4 0
+c special sat "758"
+p cnf 5 3
+2 -4 -5 0
+-1 -2 -3 -4 -5 0
+-1 2 -3 -5 0
+c special sat "759"
+p cnf 5 2
+-1 3 4 5 0
+1 2 3 4 0
+c special sat "760"
+p cnf 5 2
+-2 -3 0
+1 2 -3 4 5 0
+c special sat "761"
+p cnf 4 3
+1 2 0
+1 4 0
+1 -4 0
+c special sat "762"
+p cnf 5 2
+-2 -3 4 -5 0
+2 5 0
+c special sat "763"
+p cnf 5 3
+-1 -2 -5 0
+-1 2 4 0
+-1 4 0
+c special sat "764"
+p cnf 4 2
+1 -3 4 0
+1 2 0
+c special sat "765"
+p cnf 4 2
+1 2 3 4 0
+-2 3 4 0
+c special sat "766"
+p cnf 4 2
+-2 3 0
+2 -3 4 0
+c special sat "767"
+p cnf 5 3
+1 -2 -3 -4 0
+1 3 5 0
+-1 2 -3 4 0
+c special sat "768"
+p cnf 4 3
+-1 -2 -3 -4 0
+-1 2 3 0
+-1 -2 -3 4 0
+c special sat "769"
+p cnf 4 2
+-1 2 3 4 0
+-2 3 4 0
+c special sat "770"
+p cnf 4 2
+-1 2 3 4 0
+-1 2 3 0
+c special sat "771"
+p cnf 5 2
+-1 3 -4 5 0
+2 3 5 0
+c special sat "772"
+p cnf 5 2
+1 -2 -3 -4 -5 0
+1 2 -3 5 0
+c special sat "773"
+p cnf 5 2
+-1 2 -4 0
+2 -3 -5 0
+c special sat "774"
+p cnf 5 3
+1 -2 -3 4 0
+-1 -2 3 4 5 0
+1 -3 0
+c special sat "775"
+p cnf 5 3
+1 -2 -3 4 0
+-2 3 4 5 0
+1 3 -4 0
+c special sat "776"
+p cnf 5 2
+-1 -3 4 5 0
+1 -2 -3 5 0
+c special sat "777"
+p cnf 5 3
+-1 -2 -3 -4 0
+1 2 -3 4 0
+1 -5 0
+c special sat "778"
+p cnf 5 2
+-1 -2 -3 -4 0
+2 -3 4 -5 0
+c special sat "779"
+p cnf 5 2
+2 -3 -4 -5 0
+1 2 3 4 -5 0
+c special sat "780"
+p cnf 5 3
+-3 -4 5 0
+-2 3 -4 5 0
+-3 -4 0
+c special sat "781"
+p cnf 5 3
+1 -2 3 4 0
+1 3 4 0
+1 -2 3 5 0
+c special sat "782"
+p cnf 4 2
+-1 2 3 4 0
+2 3 4 0
+c special sat "783"
+p cnf 4 2
+2 3 0
+-1 -2 3 -4 0
+c special sat "784"
+p cnf 5 2
+1 -2 3 -4 -5 0
+1 2 3 0
+c special sat "785"
+p cnf 5 2
+1 -3 -5 0
+-3 0
+c special sat "786"
+p cnf 5 3
+2 4 5 0
+-1 3 4 -5 0
+-1 -2 3 0
+c special sat "787"
+p cnf 5 3
+-2 -3 4 5 0
+1 2 -3 4 0
+-1 2 -3 4 0
+c special sat "788"
+p cnf 5 3
+1 2 3 -4 5 0
+1 2 3 -4 0
+3 4 0
+c special sat "789"
+p cnf 4 3
+-1 2 4 0
+-1 2 3 0
+1 -4 0
+c special sat "790"
+p cnf 4 2
+-1 2 -3 -4 0
+-2 3 -4 0
+c special sat "791"
+p cnf 4 3
+-1 2 -4 0
+1 2 3 -4 0
+2 3 4 0
+c special sat "792"
+p cnf 5 3
+1 2 -5 0
+1 -2 -4 0
+-1 -2 -4 -5 0
+c special sat "793"
+p cnf 5 2
+1 -3 -4 5 0
+-1 2 -3 4 5 0
+c special sat "794"
+p cnf 5 2
+-1 -2 -3 4 5 0
+-1 2 3 4 -5 0
+c special sat "795"
+p cnf 5 2
+2 -3 -4 0
+1 -2 -3 4 -5 0
+c special sat "796"
+p cnf 5 2
+1 -2 -3 4 5 0
+1 -2 -3 4 0
+c special sat "797"
+p cnf 5 2
+1 2 3 4 0
+-2 -3 4 -5 0
+c special sat "798"
+p cnf 5 3
+-1 -3 4 0
+-1 -2 3 4 5 0
+1 2 3 -4 0
+c special sat "799"
+p cnf 5 3
+-1 -2 -3 5 0
+-1 -2 3 -5 0
+-1 -2 3 4 0
+c special sat "800"
+p cnf 5 2
+-3 0
+-1 -2 3 4 -5 0
+c special sat "801"
+p cnf 5 3
+-1 -2 3 4 0
+1 3 4 -5 0
+-3 -4 0
+c special sat "802"
+p cnf 5 3
+2 3 -4 0
+-2 3 -4 -5 0
+-2 4 0
+c special sat "803"
+p cnf 5 2
+1 -2 3 -4 -5 0
+2 -3 0
+c special sat "804"
+p cnf 5 3
+1 -2 3 4 -5 0
+-1 2 -3 4 5 0
+-1 2 3 -4 0
+c special sat "805"
+p cnf 5 2
+-1 2 -3 -4 5 0
+-1 -2 4 -5 0
+c special sat "806"
+p cnf 5 2
+-1 -2 4 0
+1 -2 3 -4 -5 0
+c special sat "807"
+p cnf 4 3
+2 -3 -4 0
+-1 2 -3 4 0
+1 -2 -3 4 0
+c special sat "808"
+p cnf 4 3
+-1 -2 -3 -4 0
+-1 -2 0
+-1 3 -4 0
+c special sat "809"
+p cnf 4 2
+-1 -3 4 0
+-1 2 4 0
+c special sat "810"
+p cnf 5 3
+-1 -3 -4 0
+1 3 4 0
+-1 -2 3 -4 5 0
+c special sat "811"
+p cnf 4 2
+1 -2 4 0
+3 0
+c special sat "812"
+p cnf 5 3
+1 2 3 4 0
+-1 -2 3 5 0
+-1 -2 3 -4 0
+c special sat "813"
+p cnf 5 2
+-1 2 3 -4 5 0
+1 2 -4 5 0
+c special sat "814"
+p cnf 5 2
+1 -4 5 0
+-1 2 -3 4 0
+c special sat "815"
+p cnf 4 3
+-1 2 3 -4 0
+-1 -2 -3 -4 0
+-1 2 -3 0
+c special sat "816"
+p cnf 4 2
+-1 -2 4 0
+1 -2 3 -4 0
+c special sat "817"
+p cnf 5 3
+-1 2 3 4 0
+-1 2 4 -5 0
+1 -2 -3 -4 5 0
+c special sat "818"
+p cnf 5 3
+-1 -2 3 -4 5 0
+1 2 0
+1 2 3 4 0
+c special sat "819"
+p cnf 5 2
+1 3 -4 -5 0
+1 -3 4 5 0
+c special sat "820"
+p cnf 4 2
+1 2 -3 0
+1 -2 3 4 0
+c special sat "821"
+p cnf 5 3
+1 2 -3 -4 0
+1 -2 -3 -4 -5 0
+-1 2 -3 -4 0
+c special sat "822"
+p cnf 5 2
+-1 2 3 -4 -5 0
+-2 3 -4 0
+c special sat "823"
+p cnf 5 3
+2 -5 0
+1 -3 -4 -5 0
+1 2 3 -5 0
+c special sat "824"
+p cnf 5 2
+-1 2 -3 4 0
+1 2 -3 4 -5 0
+c special sat "825"
+p cnf 5 3
+1 -2 3 -5 0
+-1 2 -3 0
+1 2 3 4 -5 0
+c special sat "826"
+p cnf 4 2
+1 2 -4 0
+-1 -3 -4 0
+c special sat "827"
+p cnf 5 2
+-1 -3 4 0
+-2 -3 4 5 0
+c special sat "828"
+p cnf 4 2
+2 -3 4 0
+-2 -3 0
+c special sat "829"
+p cnf 4 2
+-1 -2 -3 0
+-2 -4 0
+c special sat "830"
+p cnf 5 2
+1 3 -4 5 0
+1 2 3 -4 -5 0
+c special sat "831"
+p cnf 5 3
+-1 -2 4 -5 0
+-1 2 -3 4 0
+-1 -2 -4 0
+c special sat "832"
+p cnf 4 3
+-1 2 4 0
+1 2 -3 -4 0
+1 2 -3 -4 0
+c special sat "833"
+p cnf 5 2
+-2 -3 -4 0
+1 5 0
+c special sat "834"
+p cnf 4 2
+-1 -2 3 -4 0
+-1 -2 3 -4 0
+c special sat "835"
+p cnf 5 2
+2 3 -4 5 0
+-1 2 -3 -4 5 0
+c special sat "836"
+p cnf 5 2
+3 -4 5 0
+-2 -4 5 0
+c special sat "837"
+p cnf 5 2
+2 -3 -4 -5 0
+1 3 0
+c special sat "838"
+p cnf 4 2
+1 -2 -4 0
+2 3 -4 0
+c special sat "839"
+p cnf 5 3
+-2 3 4 0
+-2 -3 4 5 0
+1 -2 3 4 5 0
+c special sat "840"
+p cnf 4 2
+-1 -2 -3 -4 0
+-1 2 3 4 0
+c special sat "841"
+p cnf 5 2
+1 -4 0
+1 3 4 -5 0
+c special sat "842"
+p cnf 5 3
+1 -2 3 -4 5 0
+-1 2 -3 4 0
+1 2 3 4 0
+c special sat "843"
+p cnf 5 2
+-1 -2 -4 5 0
+1 -4 5 0
+c special sat "844"
+p cnf 5 2
+1 4 -5 0
+2 -3 -4 5 0
+c special sat "845"
+p cnf 5 3
+-2 -3 0
+1 2 -3 -4 0
+1 -2 3 -4 -5 0
+c special sat "846"
+p cnf 5 2
+1 2 -3 -4 0
+-1 -2 -4 -5 0
+c special sat "847"
+p cnf 5 3
+-1 2 -3 4 -5 0
+-1 2 3 0
+-1 2 -3 -4 0
+c special sat "848"
+p cnf 5 3
+2 3 4 -5 0
+-1 2 -3 4 -5 0
+-1 3 4 0
+c special sat "849"
+p cnf 4 2
+-1 -2 -3 -4 0
+1 -2 3 4 0
+c special sat "850"
+p cnf 4 2
+-2 3 -4 0
+-2 3 -4 0
+c special sat "851"
+p cnf 4 3
+-1 2 -3 -4 0
+1 -4 0
+1 2 -4 0
+c special sat "852"
+p cnf 4 3
+1 -3 4 0
+1 -2 3 0
+-1 2 -4 0
+c special sat "853"
+p cnf 5 2
+1 -3 -4 -5 0
+1 -2 0
+c special sat "854"
+p cnf 4 2
+-1 -2 3 4 0
+-1 2 -3 0
+c special sat "855"
+p cnf 5 3
+-1 3 -4 0
+-1 3 5 0
+-2 -4 5 0
+c special sat "856"
+p cnf 5 3
+-2 3 -4 0
+1 2 -3 -4 -5 0
+2 -3 -4 0
+c special sat "857"
+p cnf 5 2
+-4 5 0
+1 -2 -3 4 0
+c special sat "858"
+p cnf 5 3
+1 3 4 0
+1 2 3 4 5 0
+1 -3 -4 0
+c special sat "859"
+p cnf 5 2
+1 -4 5 0
+-1 2 -4 0
+c special sat "860"
+p cnf 5 2
+1 2 -4 0
+1 -2 5 0
+c special sat "861"
+p cnf 5 2
+1 2 3 -4 -5 0
+-2 3 4 0
+c special sat "862"
+p cnf 4 2
+2 4 0
+-1 2 -3 -4 0
+c special sat "863"
+p cnf 4 2
+1 2 -3 -4 0
+-2 3 -4 0
+c special sat "864"
+p cnf 5 2
+1 -2 -3 -4 0
+1 -3 -5 0
+c special sat "865"
+p cnf 4 2
+-1 2 4 0
+-1 2 -3 4 0
+c special sat "866"
+p cnf 4 3
+-3 4 0
+1 3 -4 0
+-1 2 4 0
+c special sat "867"
+p cnf 5 2
+-1 -2 -4 0
+-1 -2 3 -4 -5 0
+c special sat "868"
+p cnf 5 3
+-3 5 0
+-1 2 4 -5 0
+1 -2 3 4 -5 0
+c special sat "869"
+p cnf 5 2
+1 -2 4 -5 0
+-2 4 0
+c special sat "870"
+p cnf 5 2
+-1 2 -3 -4 -5 0
+1 2 3 -4 5 0
+c special sat "871"
+p cnf 5 2
+-1 -2 3 -4 0
+-1 -2 -3 4 5 0
+c special sat "872"
+p cnf 4 3
+1 -2 -3 4 0
+-1 2 -3 -4 0
+1 2 3 4 0
+c special sat "873"
+p cnf 5 2
+-1 2 3 4 0
+1 2 4 5 0
+c special sat "874"
+p cnf 5 2
+3 -5 0
+-1 2 3 -4 5 0
+c special sat "875"
+p cnf 5 2
+2 -3 -4 0
+1 3 4 5 0
+c special sat "876"
+p cnf 4 2
+1 -2 3 -4 0
+1 2 3 -4 0
+c special sat "877"
+p cnf 4 3
+-1 -3 -4 0
+1 -2 3 -4 0
+1 -3 -4 0
+c special sat "878"
+p cnf 5 2
+-1 2 3 4 -5 0
+1 -3 4 0
+c special sat "879"
+p cnf 5 2
+-1 -2 3 4 0
+-1 -2 -3 -4 -5 0
+c special sat "880"
+p cnf 5 3
+1 -2 -5 0
+-1 -2 3 -4 0
+1 -2 3 -4 -5 0
+c special sat "881"
+p cnf 4 2
+1 -2 -3 -4 0
+1 2 3 4 0
+c special sat "882"
+p cnf 5 3
+1 2 -3 -5 0
+4 0
+-1 -2 -3 4 0
+c special sat "883"
+p cnf 4 2
+1 -2 -4 0
+1 -3 0
+c special sat "884"
+p cnf 5 3
+1 -2 -3 -4 -5 0
+1 -2 0
+1 2 3 -4 -5 0
+c special sat "885"
+p cnf 5 3
+-1 -2 -3 0
+3 4 5 0
+-1 2 -5 0
+c special sat "886"
+p cnf 5 3
+-1 -2 0
+-1 -2 3 -5 0
+1 -2 3 -4 0
+c special sat "887"
+p cnf 5 2
+1 2 -4 -5 0
+-1 -4 0
+c special sat "888"
+p cnf 5 3
+-1 2 3 4 5 0
+-2 -3 4 5 0
+1 -2 3 -4 -5 0
+c special sat "889"
+p cnf 4 3
+-1 -2 3 -4 0
+1 -2 4 0
+1 3 0
+c special sat "890"
+p cnf 4 3
+-1 2 3 -4 0
+-1 -2 4 0
+-1 -3 -4 0
+c special sat "891"
+p cnf 5 3
+-2 -3 4 5 0
+-1 -2 3 4 0
+1 -3 -4 0
+c special sat "892"
+p cnf 5 3
+3 -4 0
+-1 -3 4 5 0
+1 -2 3 4 5 0
+c special sat "893"
+p cnf 5 2
+-1 2 -3 0
+1 -2 -3 5 0
+c special sat "894"
+p cnf 5 3
+-1 -2 3 -5 0
+-2 -3 4 0
+1 2 -3 4 0
+c special sat "895"
+p cnf 5 3
+3 -4 0
+1 2 -4 5 0
+1 -2 3 4 0
+c special sat "896"
+p cnf 5 2
+-1 -3 4 5 0
+-1 2 3 4 0
+c special sat "897"
+p cnf 5 3
+1 -2 3 4 5 0
+1 -2 4 0
+1 -3 -4 -5 0
+c special sat "898"
+p cnf 4 2
+-1 2 -3 4 0
+-1 -3 4 0
+c special sat "899"
+p cnf 4 2
+1 2 -3 4 0
+1 -2 -3 4 0
+c special sat "900"
+p cnf 4 3
+1 2 3 4 0
+1 -2 -3 4 0
+1 -2 -3 -4 0
+c special sat "901"
+p cnf 4 2
+-1 -2 3 0
+1 -4 0
+c special sat "902"
+p cnf 4 2
+1 -3 0
+-1 2 -3 4 0
+c special sat "903"
+p cnf 5 3
+-1 -3 -4 -5 0
+1 -2 -4 5 0
+-1 2 0
+c special sat "904"
+p cnf 4 2
+1 -3 -4 0
+1 2 -4 0
+c special sat "905"
+p cnf 4 2
+-2 -3 -4 0
+-1 -2 3 -4 0
+c special sat "906"
+p cnf 5 3
+1 -2 -3 4 -5 0
+-1 2 -3 -4 -5 0
+-2 -4 5 0
+c special sat "907"
+p cnf 5 2
+-1 2 -3 -4 0
+-1 2 -3 5 0
+c special sat "908"
+p cnf 5 2
+-1 2 3 0
+4 5 0
+c special sat "909"
+p cnf 5 3
+-1 2 -3 4 -5 0
+-1 -2 3 -4 0
+-1 -2 -3 4 0
+c special sat "910"
+p cnf 4 3
+1 -2 -3 4 0
+1 -2 -3 4 0
+2 0
+c special sat "911"
+p cnf 5 2
+1 2 3 4 -5 0
+1 -3 -4 0
+c special sat "912"
+p cnf 4 3
+1 2 3 -4 0
+-2 -4 0
+1 -3 -4 0
+c special sat "913"
+p cnf 4 3
+1 -2 -3 0
+1 2 3 4 0
+1 2 3 -4 0
+c special sat "914"
+p cnf 4 2
+1 2 -3 -4 0
+1 2 3 0
+c special sat "915"
+p cnf 5 3
+1 -2 -3 -4 0
+-1 -2 3 -4 5 0
+-1 -2 3 -4 0
+c special sat "916"
+p cnf 5 3
+-1 2 3 -4 -5 0
+-1 -2 -3 4 -5 0
+-1 -2 3 0
+c special sat "917"
+p cnf 5 2
+1 2 3 5 0
+-1 2 -3 -4 0
+c special sat "918"
+p cnf 4 3
+2 3 -4 0
+1 2 3 -4 0
+-1 -2 -3 4 0
+c special sat "919"
+p cnf 5 2
+-1 -3 4 0
+2 -3 4 5 0
+c special sat "920"
+p cnf 5 2
+1 -3 4 0
+2 -3 4 -5 0
+c special sat "921"
+p cnf 4 3
+-2 -3 -4 0
+-1 -2 -3 4 0
+-1 2 3 -4 0
+c special sat "922"
+p cnf 5 3
+-1 3 -4 0
+1 2 3 -5 0
+-1 -3 -4 0
+c special sat "923"
+p cnf 5 3
+2 -3 -4 0
+-1 -2 -3 4 0
+-1 2 4 5 0
+c special sat "924"
+p cnf 4 3
+-1 -2 -3 -4 0
+-1 3 0
+-1 3 4 0
+c special sat "925"
+p cnf 5 3
+1 2 4 0
+1 2 -3 4 -5 0
+1 -2 -3 5 0
+c special sat "926"
+p cnf 5 3
+1 -2 3 4 -5 0
+-1 -2 3 4 0
+1 -2 4 5 0
+c special sat "927"
+p cnf 4 3
+1 -2 -3 0
+2 3 4 0
+1 -2 3 -4 0
+c special sat "928"
+p cnf 5 3
+-1 -2 3 -4 0
+-1 3 -5 0
+1 2 -3 -4 0
+c special sat "929"
+p cnf 5 3
+-4 5 0
+1 2 -3 5 0
+1 2 0
+c special sat "930"
+p cnf 4 3
+1 3 -4 0
+1 -2 -4 0
+1 -3 -4 0
+c special sat "931"
+p cnf 5 3
+2 4 5 0
+1 -2 3 5 0
+3 -4 0
+c special sat "932"
+p cnf 5 3
+1 2 3 4 5 0
+1 2 3 4 -5 0
+-1 -2 3 5 0
+c special sat "933"
+p cnf 5 2
+1 2 -3 -4 5 0
+-2 3 -4 0
+c special sat "934"
+p cnf 5 3
+-3 0
+1 -2 3 -5 0
+2 -3 5 0
+c special sat "935"
+p cnf 5 3
+2 -3 -4 0
+-1 2 3 -4 0
+1 -2 -5 0
+c special sat "936"
+p cnf 4 2
+1 -2 -4 0
+1 2 -3 -4 0
+c special sat "937"
+p cnf 5 2
+-2 3 4 0
+1 -2 -3 4 5 0
+c special sat "938"
+p cnf 5 2
+1 -2 3 -4 -5 0
+-1 2 -4 0
+c special sat "939"
+p cnf 5 2
+-1 -2 -3 4 5 0
+1 2 4 0
+c special sat "940"
+p cnf 5 3
+1 3 0
+1 2 3 4 -5 0
+-1 -3 4 0
+c special sat "941"
+p cnf 5 3
+1 -2 -3 4 -5 0
+-1 2 3 4 0
+-1 -2 -3 0
+c special sat "942"
+p cnf 5 2
+-1 2 -3 -4 0
+-1 -2 -3 4 -5 0
+c special sat "943"
+p cnf 5 3
+1 -2 3 4 0
+-1 -2 -3 4 -5 0
+2 3 -4 5 0
+c special sat "944"
+p cnf 4 2
+-1 -2 3 4 0
+-2 3 4 0
+c special sat "945"
+p cnf 5 2
+-1 -2 -3 4 5 0
+1 2 0
+c special sat "946"
+p cnf 5 3
+2 -3 -4 5 0
+1 2 -3 0
+-2 4 5 0
+c special sat "947"
+p cnf 5 2
+1 2 -3 4 0
+1 2 -3 -4 -5 0
+c special sat "948"
+p cnf 5 2
+-1 2 -3 -4 5 0
+-3 4 0
+c special sat "949"
+p cnf 4 2
+-2 -3 4 0
+1 2 -3 4 0
+c special sat "950"
+p cnf 5 3
+-1 -2 3 0
+-1 2 3 -4 0
+1 2 -3 -4 5 0
+c special sat "951"
+p cnf 5 2
+-1 2 3 -4 5 0
+1 -2 -3 -4 0
+c special sat "952"
+p cnf 5 3
+1 -2 4 0
+1 -2 3 -4 -5 0
+-1 -2 -3 4 -5 0
+c special sat "953"
+p cnf 5 3
+1 2 -4 0
+-1 4 0
+1 -2 3 -4 5 0
+c special sat "954"
+p cnf 5 3
+1 -3 4 5 0
+1 2 -3 -4 -5 0
+1 -3 4 -5 0
+c special sat "955"
+p cnf 5 2
+1 -3 -4 -5 0
+2 3 -4 0
+c special sat "956"
+p cnf 5 2
+-1 -2 -3 4 -5 0
+2 -4 5 0
+c special sat "957"
+p cnf 4 2
+-1 -2 3 -4 0
+-1 -2 -3 -4 0
+c special sat "958"
+p cnf 5 2
+-1 -3 5 0
+1 4 -5 0
+c special sat "959"
+p cnf 5 3
+1 2 3 4 -5 0
+1 3 4 5 0
+1 -2 -4 5 0
+c special sat "960"
+p cnf 4 2
+1 4 0
+-1 2 3 0
+c special sat "961"
+p cnf 5 2
+2 3 -5 0
+1 2 3 4 0
+c special sat "962"
+p cnf 3 2
+-2 0
+2 -3 0
+c special sat "963"
+p cnf 5 2
+1 -2 -3 4 -5 0
+-1 -2 -3 -4 -5 0
+c special sat "964"
+p cnf 5 3
+1 -2 -3 -4 -5 0
+-2 -3 -4 5 0
+-1 -4 0
+c special sat "965"
+p cnf 5 3
+-1 -2 0
+1 2 -3 -4 -5 0
+2 -3 5 0
+c special sat "966"
+p cnf 5 2
+1 2 -3 4 5 0
+-1 -2 -3 5 0
+c special sat "967"
+p cnf 5 3
+-1 2 4 -5 0
+-2 3 4 0
+-2 -3 4 5 0
+c special sat "968"
+p cnf 5 2
+-1 2 4 5 0
+1 2 -3 -4 0
+c special sat "969"
+p cnf 5 3
+2 -3 4 0
+1 3 4 -5 0
+-1 2 3 0
+c special sat "970"
+p cnf 4 2
+2 -3 -4 0
+1 -2 3 4 0
+c special sat "971"
+p cnf 5 3
+1 2 3 -4 0
+-1 3 -5 0
+-2 -3 0
+c special sat "972"
+p cnf 5 3
+-1 -2 -3 -5 0
+-1 -2 -4 -5 0
+-1 -2 -3 0
+c special sat "973"
+p cnf 5 3
+1 -2 -3 5 0
+-1 -2 3 4 -5 0
+-1 3 -4 5 0
+c special sat "974"
+p cnf 5 2
+1 -2 4 0
+-3 -4 -5 0
+c special sat "975"
+p cnf 5 3
+-2 -3 -4 -5 0
+-1 2 3 -4 5 0
+-1 -2 0
+c special sat "976"
+p cnf 5 3
+-1 -2 -4 0
+3 -4 5 0
+-1 2 -3 -5 0
+c special sat "977"
+p cnf 5 3
+-1 -2 -3 -5 0
+2 -3 -4 -5 0
+-1 -2 4 -5 0
+c special sat "978"
+p cnf 4 2
+-2 -3 0
+-1 2 -3 4 0
+c special sat "979"
+p cnf 5 3
+-1 2 3 -4 -5 0
+-1 -2 -4 0
+-1 2 -3 -4 -5 0
+c special sat "980"
+p cnf 5 2
+-1 -2 3 4 5 0
+1 2 -3 -4 0
+c special sat "981"
+p cnf 5 3
+-1 -2 -3 4 -5 0
+3 -5 0
+1 -2 -3 -4 0
+c special sat "982"
+p cnf 5 3
+2 -3 -4 0
+1 -2 0
+1 -2 -3 4 -5 0
+c special sat "983"
+p cnf 4 3
+2 3 0
+-1 3 4 0
+1 -2 -3 0
+c special sat "984"
+p cnf 5 3
+1 2 -3 -5 0
+-1 -2 3 -4 5 0
+1 -2 3 4 5 0
+c special sat "985"
+p cnf 5 3
+1 -2 3 -4 -5 0
+1 -2 -3 -4 5 0
+1 -2 3 -4 0
+c special sat "986"
+p cnf 5 2
+-1 3 -4 -5 0
+-1 -2 3 0
+c special sat "987"
+p cnf 4 2
+-3 -4 0
+1 2 -3 -4 0
+c special sat "988"
+p cnf 5 2
+-1 -2 3 5 0
+1 2 0
+c special sat "989"
+p cnf 5 3
+1 2 -3 -4 0
+-1 2 3 0
+2 -4 -5 0
+c special sat "990"
+p cnf 4 2
+-1 -4 0
+-1 -2 -3 -4 0
+c special sat "991"
+p cnf 5 3
+1 -2 3 4 5 0
+-3 -4 -5 0
+-1 -2 4 5 0
+c special sat "992"
+p cnf 4 2
+-1 -3 -4 0
+-1 -3 0
+c special sat "993"
+p cnf 5 3
+1 -4 0
+1 -2 -3 4 0
+-1 -2 -3 4 -5 0
+c special sat "994"
+p cnf 4 2
+-1 3 -4 0
+1 2 3 -4 0
+c special sat "995"
+p cnf 4 2
+-3 4 0
+-1 2 4 0
+c special sat "996"
+p cnf 5 3
+1 -2 3 -4 5 0
+1 -3 4 0
+2 -3 4 0
+c special sat "997"
+p cnf 4 2
+-1 3 -4 0
+1 2 -3 -4 0
+c special sat "998"
+p cnf 5 3
+-2 -3 -4 0
+-1 -3 -4 5 0
+-1 2 4 5 0
+c special sat "999"
+p cnf 5 3
+-1 3 4 0
+-1 2 3 4 -5 0
+1 2 4 0

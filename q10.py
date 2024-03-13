@@ -4,10 +4,11 @@ import copy
 
 #clause_set = [[1, 2], [1, -3], [3, 4], [5, 6], [-5, -6]]
 #clause_set = [[1, -2, 3], [-1, 2, -3]]
-clause_set = [[1, -2, 3],[1, -3],[-2, -3, 4], [1]]
+#clause_set = [[1, -2],[1, 2],[-1, -2], [-1, 2]]
+clause_set = [[1],[1,-1],[-1,-2,-3],[-2],[6]]
 
 def dpll_sat_solve(clause_set, partial_assignment) :
-    clause_setCopy = copy.deepcopy(clause_set)
+    
     
     
     
@@ -29,6 +30,8 @@ def dpll_sat_solve(clause_set, partial_assignment) :
             print(varIndex1, 'varIndex1')
             print(varIndex2, 'varIndex2')
             print(clause_setCopy, 'b4 var2')
+            if clause_setCopy == [[]] :
+                return False
             CurrentVar = clause_setCopy[varIndex1][varIndex2]
             print(CurrentVar, 'var')
             
@@ -118,8 +121,8 @@ def dpll_sat_solve(clause_set, partial_assignment) :
             satisfying.append(0)
             return satisfying
 
-    def branching(clause_set, SAT, literal, partial_assignment, x) :
-        x += 1
+    def branching(clause_set, SAT, literal, partial_assignment) :
+
         SAT1 = copy.deepcopy(SAT)
         SAT1.append(literal)
         clause_setC = copy.deepcopy(clause_set)
@@ -149,30 +152,31 @@ def dpll_sat_solve(clause_set, partial_assignment) :
                 return clause_setCopy
             
             clause_setC = pure_literal_elim(SAT1, clause_setCopy)
+            if clause_setC == False :
+                return False 
             if clause_setC[-1] == 0 :
                 clause_setC.pop()
                 return clause_setC
             
 
             
-            next = branching(clause_setC, SAT1, clause_setC[0][0], partial_assignment, x)
+            next = branching(clause_setC, SAT1, clause_setC[0][0], partial_assignment)
             if next :
                 return next 
-            return branching(clause_setC, SAT1, clause_setC[0][0]*-1, partial_assignment, x)
+            return branching(clause_setC, SAT1, clause_setC[0][0]*-1, partial_assignment)
         else :
-            if x == len(partial_assignment) :
-                return False
-            return branching(clause_setC, SAT1, partial_assignment[x], partial_assignment, x)
+            partial_assignment.pop(0)
+            return branching(clause_setC, SAT1, partial_assignment[0], partial_assignment)
         
     SAT = []
     if partial_assignment != [] :
         literal = partial_assignment[0]
     else :
         literal = clause_set[0][0]
-    x = 0      
+          
 
 
-    resulting = branching(clause_set, SAT, literal, partial_assignment, x)
+    resulting = branching(clause_set, SAT, literal, partial_assignment)
     if resulting != False :
         for i in clause_set :
             for j in i :

@@ -3,8 +3,7 @@ import copy
 def branching_sat_solve(clause_set, partial_assignment) :
 
 
-    def branching(clause_set, SAT, literal, partial_assignment, x) :
-        x += 1
+    def branching(clause_set, SAT, literal, partial_assignment) :
         SAT1 = copy.deepcopy(SAT)
         SAT1.append(literal)
         clause_setC = copy.deepcopy(clause_set)
@@ -28,24 +27,24 @@ def branching_sat_solve(clause_set, partial_assignment) :
                 if len(clause_setC[i]) == 0 :
                     return False       
         if partial_assignment == [] :
-            next = branching(clause_setC, SAT1, clause_setC[0][0], partial_assignment, x)
+            next = branching(clause_setC, SAT1, clause_setC[0][0], partial_assignment)
             if next :
                 return next 
-            return branching(clause_setC, SAT1, clause_setC[0][0]*-1, partial_assignment, x)
+            return branching(clause_setC, SAT1, clause_setC[0][0]*-1, partial_assignment)
         else :
-            if x == len(partial_assignment) :
-                return False
-            return branching(clause_setC, SAT1, partial_assignment[x], partial_assignment, x)
-        
+            partial_assignment.pop(0)
+            print(partial_assignment)
+            return branching(clause_setC, SAT1, partial_assignment[0], partial_assignment)
+                
     SAT = []
     if partial_assignment != [] :
         literal = partial_assignment[0]
     else :
         literal = clause_set[0][0]
-    x = 0      
+         
 
 
-    resulting = branching(clause_set, SAT, literal, partial_assignment, x)
+    resulting = branching(clause_set, SAT, literal, partial_assignment)
     if resulting != False :
         for i in clause_set :
             for j in i :
